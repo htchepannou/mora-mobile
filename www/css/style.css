@@ -1,0 +1,53 @@
+
+ion-nav-view, ion-content {
+  background-color: #C1CDCD !important;
+}
+
+/* Empty. Add your own CSS if you like */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+img.jersey{
+  width: 16px;
+  height: 16px;
+}
+
+.team-name{
+  color: #DA4D1F;
+}
+.item-avatar img.team-logo{
+  border-radius: 0 !important;
+}
+
+.post-author{
+  color: #DA4D1F;
+}
+
+.event-date{
+  color: #DA4D1F;
+}
+
+.video-library{
+  color: #DA4D1F;
+}
+.video-rating .ion-ios-star, .video-rating .ion-ios-star-half{
+  color: #DA4D1F !important;
+}
+
+.pull-right{
+  display: inline;
+  float: right;
+}

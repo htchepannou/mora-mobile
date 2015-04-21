@@ -1,0 +1,1984 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 warn package.json mora-mobile@1.0.0 No repository field.
+5 warn package.json mora-mobile@1.0.0 No README data
+6 verbose install where, deps [ '/Users/herve/Projects/mora-mobile',
+6 verbose install   [ 'gulp',
+6 verbose install     'gulp-sass',
+6 verbose install     'gulp-concat',
+6 verbose install     'gulp-minify-css',
+6 verbose install     'gulp-rename',
+6 verbose install     'bower',
+6 verbose install     'gulp-util',
+6 verbose install     'shelljs',
+6 verbose install     'karma',
+6 verbose install     'karma-chrome-launcher',
+6 verbose install     'karma-firefox-launcher',
+6 verbose install     'karma-safari-launcher',
+6 verbose install     'karma-jasmine' ] ]
+7 verbose install where, peers [ '/Users/herve/Projects/mora-mobile', [] ]
+8 info preinstall mora-mobile@1.0.0
+9 silly cache add args [ 'gulp-concat@^2.2.0', null ]
+10 verbose cache add spec gulp-concat@^2.2.0
+11 silly cache add parsed spec { raw: 'gulp-concat@^2.2.0',
+11 silly cache add   scope: null,
+11 silly cache add   name: 'gulp-concat',
+11 silly cache add   rawSpec: '^2.2.0',
+11 silly cache add   spec: '>=2.2.0 <3.0.0',
+11 silly cache add   type: 'range' }
+12 verbose addNamed gulp-concat@>=2.2.0 <3.0.0
+13 silly addNamed semver.valid null
+14 silly addNamed semver.validRange >=2.2.0 <3.0.0
+15 silly addNameRange { name: 'gulp-concat', range: '>=2.2.0 <3.0.0', hasData: false }
+16 silly mapToRegistry name gulp-concat
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/gulp-concat
+20 verbose addNameRange registry:https://registry.npmjs.org/gulp-concat not in flight; fetching
+21 silly cache add args [ 'gulp-minify-css@^0.3.0', null ]
+22 verbose cache add spec gulp-minify-css@^0.3.0
+23 silly cache add parsed spec { raw: 'gulp-minify-css@^0.3.0',
+23 silly cache add   scope: null,
+23 silly cache add   name: 'gulp-minify-css',
+23 silly cache add   rawSpec: '^0.3.0',
+23 silly cache add   spec: '>=0.3.0 <0.4.0',
+23 silly cache add   type: 'range' }
+24 verbose addNamed gulp-minify-css@>=0.3.0 <0.4.0
+25 silly addNamed semver.valid null
+26 silly addNamed semver.validRange >=0.3.0 <0.4.0
+27 silly addNameRange { name: 'gulp-minify-css',
+27 silly addNameRange   range: '>=0.3.0 <0.4.0',
+27 silly addNameRange   hasData: false }
+28 silly mapToRegistry name gulp-minify-css
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry uri https://registry.npmjs.org/gulp-minify-css
+32 verbose addNameRange registry:https://registry.npmjs.org/gulp-minify-css not in flight; fetching
+33 silly cache add args [ 'gulp-rename@^1.2.0', null ]
+34 verbose cache add spec gulp-rename@^1.2.0
+35 silly cache add parsed spec { raw: 'gulp-rename@^1.2.0',
+35 silly cache add   scope: null,
+35 silly cache add   name: 'gulp-rename',
+35 silly cache add   rawSpec: '^1.2.0',
+35 silly cache add   spec: '>=1.2.0 <2.0.0',
+35 silly cache add   type: 'range' }
+36 verbose addNamed gulp-rename@>=1.2.0 <2.0.0
+37 silly addNamed semver.valid null
+38 silly addNamed semver.validRange >=1.2.0 <2.0.0
+39 silly addNameRange { name: 'gulp-rename', range: '>=1.2.0 <2.0.0', hasData: false }
+40 silly mapToRegistry name gulp-rename
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry uri https://registry.npmjs.org/gulp-rename
+44 verbose addNameRange registry:https://registry.npmjs.org/gulp-rename not in flight; fetching
+45 silly cache add args [ 'bower@^1.3.3', null ]
+46 verbose cache add spec bower@^1.3.3
+47 silly cache add parsed spec { raw: 'bower@^1.3.3',
+47 silly cache add   scope: null,
+47 silly cache add   name: 'bower',
+47 silly cache add   rawSpec: '^1.3.3',
+47 silly cache add   spec: '>=1.3.3 <2.0.0',
+47 silly cache add   type: 'range' }
+48 verbose addNamed bower@>=1.3.3 <2.0.0
+49 silly addNamed semver.valid null
+50 silly addNamed semver.validRange >=1.3.3 <2.0.0
+51 silly addNameRange { name: 'bower', range: '>=1.3.3 <2.0.0', hasData: false }
+52 silly mapToRegistry name bower
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry uri https://registry.npmjs.org/bower
+56 verbose addNameRange registry:https://registry.npmjs.org/bower not in flight; fetching
+57 silly cache add args [ 'gulp-util@^2.2.14', null ]
+58 verbose cache add spec gulp-util@^2.2.14
+59 silly cache add parsed spec { raw: 'gulp-util@^2.2.14',
+59 silly cache add   scope: null,
+59 silly cache add   name: 'gulp-util',
+59 silly cache add   rawSpec: '^2.2.14',
+59 silly cache add   spec: '>=2.2.14 <3.0.0',
+59 silly cache add   type: 'range' }
+60 verbose addNamed gulp-util@>=2.2.14 <3.0.0
+61 silly addNamed semver.valid null
+62 silly addNamed semver.validRange >=2.2.14 <3.0.0
+63 silly addNameRange { name: 'gulp-util', range: '>=2.2.14 <3.0.0', hasData: false }
+64 silly mapToRegistry name gulp-util
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://registry.npmjs.org/
+67 silly mapToRegistry uri https://registry.npmjs.org/gulp-util
+68 verbose addNameRange registry:https://registry.npmjs.org/gulp-util not in flight; fetching
+69 silly cache add args [ 'shelljs@^0.3.0', null ]
+70 verbose cache add spec shelljs@^0.3.0
+71 silly cache add parsed spec { raw: 'shelljs@^0.3.0',
+71 silly cache add   scope: null,
+71 silly cache add   name: 'shelljs',
+71 silly cache add   rawSpec: '^0.3.0',
+71 silly cache add   spec: '>=0.3.0 <0.4.0',
+71 silly cache add   type: 'range' }
+72 verbose addNamed shelljs@>=0.3.0 <0.4.0
+73 silly addNamed semver.valid null
+74 silly addNamed semver.validRange >=0.3.0 <0.4.0
+75 silly addNameRange { name: 'shelljs', range: '>=0.3.0 <0.4.0', hasData: false }
+76 silly mapToRegistry name shelljs
+77 silly mapToRegistry using default registry
+78 silly mapToRegistry registry https://registry.npmjs.org/
+79 silly mapToRegistry uri https://registry.npmjs.org/shelljs
+80 verbose addNameRange registry:https://registry.npmjs.org/shelljs not in flight; fetching
+81 silly cache add args [ 'karma@*', null ]
+82 verbose cache add spec karma@*
+83 silly cache add parsed spec { raw: 'karma@*',
+83 silly cache add   scope: null,
+83 silly cache add   name: 'karma',
+83 silly cache add   rawSpec: '*',
+83 silly cache add   spec: '*',
+83 silly cache add   type: 'range' }
+84 verbose addNamed karma@*
+85 silly addNamed semver.valid null
+86 silly addNamed semver.validRange *
+87 silly addNameRange { name: 'karma', range: '*', hasData: false }
+88 silly mapToRegistry name karma
+89 silly mapToRegistry using default registry
+90 silly mapToRegistry registry https://registry.npmjs.org/
+91 silly mapToRegistry uri https://registry.npmjs.org/karma
+92 verbose addNameRange registry:https://registry.npmjs.org/karma not in flight; fetching
+93 silly cache add args [ 'karma-chrome-launcher@*', null ]
+94 verbose cache add spec karma-chrome-launcher@*
+95 silly cache add parsed spec { raw: 'karma-chrome-launcher@*',
+95 silly cache add   scope: null,
+95 silly cache add   name: 'karma-chrome-launcher',
+95 silly cache add   rawSpec: '*',
+95 silly cache add   spec: '*',
+95 silly cache add   type: 'range' }
+96 verbose addNamed karma-chrome-launcher@*
+97 silly addNamed semver.valid null
+98 silly addNamed semver.validRange *
+99 silly addNameRange { name: 'karma-chrome-launcher', range: '*', hasData: false }
+100 silly mapToRegistry name karma-chrome-launcher
+101 silly mapToRegistry using default registry
+102 silly mapToRegistry registry https://registry.npmjs.org/
+103 silly mapToRegistry uri https://registry.npmjs.org/karma-chrome-launcher
+104 verbose addNameRange registry:https://registry.npmjs.org/karma-chrome-launcher not in flight; fetching
+105 silly cache add args [ 'karma-firefox-launcher@*', null ]
+106 verbose cache add spec karma-firefox-launcher@*
+107 silly cache add parsed spec { raw: 'karma-firefox-launcher@*',
+107 silly cache add   scope: null,
+107 silly cache add   name: 'karma-firefox-launcher',
+107 silly cache add   rawSpec: '*',
+107 silly cache add   spec: '*',
+107 silly cache add   type: 'range' }
+108 verbose addNamed karma-firefox-launcher@*
+109 silly addNamed semver.valid null
+110 silly addNamed semver.validRange *
+111 silly addNameRange { name: 'karma-firefox-launcher', range: '*', hasData: false }
+112 silly mapToRegistry name karma-firefox-launcher
+113 silly mapToRegistry using default registry
+114 silly mapToRegistry registry https://registry.npmjs.org/
+115 silly mapToRegistry uri https://registry.npmjs.org/karma-firefox-launcher
+116 verbose addNameRange registry:https://registry.npmjs.org/karma-firefox-launcher not in flight; fetching
+117 silly cache add args [ 'karma-safari-launcher@*', null ]
+118 verbose cache add spec karma-safari-launcher@*
+119 silly cache add parsed spec { raw: 'karma-safari-launcher@*',
+119 silly cache add   scope: null,
+119 silly cache add   name: 'karma-safari-launcher',
+119 silly cache add   rawSpec: '*',
+119 silly cache add   spec: '*',
+119 silly cache add   type: 'range' }
+120 verbose addNamed karma-safari-launcher@*
+121 silly addNamed semver.valid null
+122 silly addNamed semver.validRange *
+123 silly addNameRange { name: 'karma-safari-launcher', range: '*', hasData: false }
+124 silly mapToRegistry name karma-safari-launcher
+125 silly mapToRegistry using default registry
+126 silly mapToRegistry registry https://registry.npmjs.org/
+127 silly mapToRegistry uri https://registry.npmjs.org/karma-safari-launcher
+128 verbose addNameRange registry:https://registry.npmjs.org/karma-safari-launcher not in flight; fetching
+129 silly cache add args [ 'karma-jasmine@*', null ]
+130 verbose cache add spec karma-jasmine@*
+131 silly cache add parsed spec { raw: 'karma-jasmine@*',
+131 silly cache add   scope: null,
+131 silly cache add   name: 'karma-jasmine',
+131 silly cache add   rawSpec: '*',
+131 silly cache add   spec: '*',
+131 silly cache add   type: 'range' }
+132 verbose addNamed karma-jasmine@*
+133 silly addNamed semver.valid null
+134 silly addNamed semver.validRange *
+135 silly addNameRange { name: 'karma-jasmine', range: '*', hasData: false }
+136 silly mapToRegistry name karma-jasmine
+137 silly mapToRegistry using default registry
+138 silly mapToRegistry registry https://registry.npmjs.org/
+139 silly mapToRegistry uri https://registry.npmjs.org/karma-jasmine
+140 verbose addNameRange registry:https://registry.npmjs.org/karma-jasmine not in flight; fetching
+141 silly cache add args [ 'gulp@^3.5.6', null ]
+142 verbose cache add spec gulp@^3.5.6
+143 silly cache add parsed spec { raw: 'gulp@^3.5.6',
+143 silly cache add   scope: null,
+143 silly cache add   name: 'gulp',
+143 silly cache add   rawSpec: '^3.5.6',
+143 silly cache add   spec: '>=3.5.6 <4.0.0',
+143 silly cache add   type: 'range' }
+144 verbose addNamed gulp@>=3.5.6 <4.0.0
+145 silly addNamed semver.valid null
+146 silly addNamed semver.validRange >=3.5.6 <4.0.0
+147 silly addNameRange { name: 'gulp', range: '>=3.5.6 <4.0.0', hasData: false }
+148 silly mapToRegistry name gulp
+149 silly mapToRegistry using default registry
+150 silly mapToRegistry registry https://registry.npmjs.org/
+151 silly mapToRegistry uri https://registry.npmjs.org/gulp
+152 verbose addNameRange registry:https://registry.npmjs.org/gulp not in flight; fetching
+153 silly cache add args [ 'gulp-sass@^1.3.3', null ]
+154 verbose cache add spec gulp-sass@^1.3.3
+155 silly cache add parsed spec { raw: 'gulp-sass@^1.3.3',
+155 silly cache add   scope: null,
+155 silly cache add   name: 'gulp-sass',
+155 silly cache add   rawSpec: '^1.3.3',
+155 silly cache add   spec: '>=1.3.3 <2.0.0',
+155 silly cache add   type: 'range' }
+156 verbose addNamed gulp-sass@>=1.3.3 <2.0.0
+157 silly addNamed semver.valid null
+158 silly addNamed semver.validRange >=1.3.3 <2.0.0
+159 silly addNameRange { name: 'gulp-sass', range: '>=1.3.3 <2.0.0', hasData: false }
+160 silly mapToRegistry name gulp-sass
+161 silly mapToRegistry using default registry
+162 silly mapToRegistry registry https://registry.npmjs.org/
+163 silly mapToRegistry uri https://registry.npmjs.org/gulp-sass
+164 verbose addNameRange registry:https://registry.npmjs.org/gulp-sass not in flight; fetching
+165 verbose request uri https://registry.npmjs.org/karma-firefox-launcher
+166 verbose request no auth needed
+167 info attempt registry request try #1 at 5:46:30 PM
+168 verbose request id e1d81eb4e0520584
+169 http request GET https://registry.npmjs.org/karma-firefox-launcher
+170 verbose request uri https://registry.npmjs.org/karma-safari-launcher
+171 verbose request no auth needed
+172 info attempt registry request try #1 at 5:46:30 PM
+173 http request GET https://registry.npmjs.org/karma-safari-launcher
+174 verbose request uri https://registry.npmjs.org/karma-jasmine
+175 verbose request no auth needed
+176 info attempt registry request try #1 at 5:46:30 PM
+177 http request GET https://registry.npmjs.org/karma-jasmine
+178 verbose request uri https://registry.npmjs.org/karma-chrome-launcher
+179 verbose request no auth needed
+180 info attempt registry request try #1 at 5:46:30 PM
+181 http request GET https://registry.npmjs.org/karma-chrome-launcher
+182 verbose request uri https://registry.npmjs.org/karma
+183 verbose request no auth needed
+184 info attempt registry request try #1 at 5:46:30 PM
+185 http request GET https://registry.npmjs.org/karma
+186 verbose request uri https://registry.npmjs.org/gulp-concat
+187 verbose request no auth needed
+188 info attempt registry request try #1 at 5:46:30 PM
+189 verbose etag "I84UMGEYOCV7J8CFZES9LYCO"
+190 http request GET https://registry.npmjs.org/gulp-concat
+191 verbose request uri https://registry.npmjs.org/gulp-rename
+192 verbose request no auth needed
+193 info attempt registry request try #1 at 5:46:30 PM
+194 verbose etag "4P3PW9BQ18AH14PSYTC069LTT"
+195 http request GET https://registry.npmjs.org/gulp-rename
+196 verbose request uri https://registry.npmjs.org/gulp-minify-css
+197 verbose request no auth needed
+198 info attempt registry request try #1 at 5:46:30 PM
+199 verbose etag "A7F2OT4OQ7BWRV10JSJ9PNMLR"
+200 http request GET https://registry.npmjs.org/gulp-minify-css
+201 verbose request uri https://registry.npmjs.org/gulp-util
+202 verbose request no auth needed
+203 info attempt registry request try #1 at 5:46:30 PM
+204 verbose etag "ARODXCVXPR2ERRK3SGIQ3130K"
+205 http request GET https://registry.npmjs.org/gulp-util
+206 verbose request uri https://registry.npmjs.org/shelljs
+207 verbose request no auth needed
+208 info attempt registry request try #1 at 5:46:30 PM
+209 verbose etag "F1RNB4VHJJHN31NZS9GSOVHOE"
+210 http request GET https://registry.npmjs.org/shelljs
+211 verbose request uri https://registry.npmjs.org/gulp-sass
+212 verbose request no auth needed
+213 info attempt registry request try #1 at 5:46:30 PM
+214 verbose etag "E0IQD3MBOGT0Q2JJ76QWJMUJ2"
+215 http request GET https://registry.npmjs.org/gulp-sass
+216 verbose request uri https://registry.npmjs.org/gulp
+217 verbose request no auth needed
+218 info attempt registry request try #1 at 5:46:30 PM
+219 verbose etag "7XOEYBN5R41TN9ADESYU81NDY"
+220 http request GET https://registry.npmjs.org/gulp
+221 verbose request uri https://registry.npmjs.org/bower
+222 verbose request no auth needed
+223 info attempt registry request try #1 at 5:46:30 PM
+224 verbose etag "B75PZIF9UZTD158RMY4I6WR91"
+225 http request GET https://registry.npmjs.org/bower
+226 http 200 https://registry.npmjs.org/karma-firefox-launcher
+227 silly get cb [ 200,
+227 silly get   { date: 'Fri, 17 Apr 2015 21:46:30 GMT',
+227 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+227 silly get     etag: '"EMGF88GTL8LGEVEXY38TWCBP7"',
+227 silly get     'content-type': 'application/json',
+227 silly get     'cache-control': 'max-age=60',
+227 silly get     'content-length': '12127',
+227 silly get     'accept-ranges': 'bytes',
+227 silly get     via: '1.1 varnish',
+227 silly get     age: '19',
+227 silly get     'x-served-by': 'cache-atl6229-ATL',
+227 silly get     'x-cache': 'HIT',
+227 silly get     'x-cache-hits': '1',
+227 silly get     'x-timer': 'S1429307190.854055,VS0,VE1',
+227 silly get     vary: 'Accept',
+227 silly get     'keep-alive': 'timeout=10, max=50',
+227 silly get     connection: 'Keep-Alive' } ]
+228 verbose get saving karma-firefox-launcher to /Users/herve/.npm/registry.npmjs.org/karma-firefox-launcher/.cache.json
+229 silly addNameRange number 2 { name: 'karma-firefox-launcher', range: '*', hasData: true }
+230 silly addNameRange versions [ 'karma-firefox-launcher',
+230 silly addNameRange   [ '0.0.1',
+230 silly addNameRange     '0.0.2',
+230 silly addNameRange     '0.0.3',
+230 silly addNameRange     '0.1.0',
+230 silly addNameRange     '0.1.1',
+230 silly addNameRange     '0.1.2',
+230 silly addNameRange     '0.1.3',
+230 silly addNameRange     '0.1.4' ] ]
+231 verbose addNamed karma-firefox-launcher@0.1.4
+232 silly addNamed semver.valid 0.1.4
+233 silly addNamed semver.validRange 0.1.4
+234 http 200 https://registry.npmjs.org/karma-safari-launcher
+235 silly get cb [ 200,
+235 silly get   { date: 'Fri, 17 Apr 2015 21:46:30 GMT',
+235 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+235 silly get     etag: '"8BV9E6LTD8PM9Y5CSCLIN0TCG"',
+235 silly get     'content-type': 'application/json',
+235 silly get     'cache-control': 'max-age=60',
+235 silly get     'content-length': '6943',
+235 silly get     'accept-ranges': 'bytes',
+235 silly get     via: '1.1 varnish',
+235 silly get     age: '0',
+235 silly get     'x-served-by': 'cache-atl6234-ATL',
+235 silly get     'x-cache': 'HIT',
+235 silly get     'x-cache-hits': '1',
+235 silly get     'x-timer': 'S1429307190.849989,VS0,VE27',
+235 silly get     vary: 'Accept',
+235 silly get     'keep-alive': 'timeout=10, max=50',
+235 silly get     connection: 'Keep-Alive' } ]
+236 verbose get saving karma-safari-launcher to /Users/herve/.npm/registry.npmjs.org/karma-safari-launcher/.cache.json
+237 http 200 https://registry.npmjs.org/karma-chrome-launcher
+238 silly get cb [ 200,
+238 silly get   { date: 'Fri, 17 Apr 2015 21:46:30 GMT',
+238 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+238 silly get     etag: '"8CBQT45FV6VI50QASJA32NIH0"',
+238 silly get     'content-type': 'application/json',
+238 silly get     'cache-control': 'max-age=60',
+238 silly get     'content-length': '18270',
+238 silly get     'accept-ranges': 'bytes',
+238 silly get     via: '1.1 varnish',
+238 silly get     age: '30',
+238 silly get     'x-served-by': 'cache-atl6224-ATL',
+238 silly get     'x-cache': 'HIT',
+238 silly get     'x-cache-hits': '1',
+238 silly get     'x-timer': 'S1429307190.848446,VS0,VE0',
+238 silly get     vary: 'Accept',
+238 silly get     'keep-alive': 'timeout=10, max=50',
+238 silly get     connection: 'Keep-Alive' } ]
+239 verbose get saving karma-chrome-launcher to /Users/herve/.npm/registry.npmjs.org/karma-chrome-launcher/.cache.json
+240 silly mapToRegistry name karma-firefox-launcher
+241 silly mapToRegistry using default registry
+242 silly mapToRegistry registry https://registry.npmjs.org/
+243 silly mapToRegistry uri https://registry.npmjs.org/karma-firefox-launcher
+244 verbose addRemoteTarball https://registry.npmjs.org/karma-firefox-launcher/-/karma-firefox-launcher-0.1.4.tgz not in flight; adding
+245 verbose addRemoteTarball [ 'https://registry.npmjs.org/karma-firefox-launcher/-/karma-firefox-launcher-0.1.4.tgz',
+245 verbose addRemoteTarball   '5d4abb4abba0e45e83fd94b1f6ff84ec46929c6b' ]
+246 http 200 https://registry.npmjs.org/karma-jasmine
+247 silly get cb [ 200,
+247 silly get   { date: 'Fri, 17 Apr 2015 21:46:30 GMT',
+247 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+247 silly get     etag: '"VORR8LHWJK4QEZWHEI16MFVJ"',
+247 silly get     'content-type': 'application/json',
+247 silly get     'cache-control': 'max-age=60',
+247 silly get     'content-length': '31890',
+247 silly get     'accept-ranges': 'bytes',
+247 silly get     via: '1.1 varnish',
+247 silly get     age: '51',
+247 silly get     'x-served-by': 'cache-atl6221-ATL',
+247 silly get     'x-cache': 'HIT',
+247 silly get     'x-cache-hits': '1',
+247 silly get     'x-timer': 'S1429307190.847468,VS0,VE0',
+247 silly get     vary: 'Accept',
+247 silly get     'keep-alive': 'timeout=10, max=50',
+247 silly get     connection: 'Keep-Alive' } ]
+248 verbose get saving karma-jasmine to /Users/herve/.npm/registry.npmjs.org/karma-jasmine/.cache.json
+249 info retry fetch attempt 1 at 5:46:30 PM
+250 info attempt registry request try #1 at 5:46:30 PM
+251 http fetch GET https://registry.npmjs.org/karma-firefox-launcher/-/karma-firefox-launcher-0.1.4.tgz
+252 silly addNameRange number 2 { name: 'karma-chrome-launcher', range: '*', hasData: true }
+253 silly addNameRange versions [ 'karma-chrome-launcher',
+253 silly addNameRange   [ '0.0.1',
+253 silly addNameRange     '0.0.2',
+253 silly addNameRange     '0.1.0',
+253 silly addNameRange     '0.1.1',
+253 silly addNameRange     '0.1.2',
+253 silly addNameRange     '0.1.3',
+253 silly addNameRange     '0.1.4',
+253 silly addNameRange     '0.1.5',
+253 silly addNameRange     '0.1.6',
+253 silly addNameRange     '0.1.7',
+253 silly addNameRange     '0.1.8' ] ]
+254 verbose addNamed karma-chrome-launcher@0.1.8
+255 silly addNamed semver.valid 0.1.8
+256 silly addNamed semver.validRange 0.1.8
+257 silly addNameRange number 2 { name: 'karma-safari-launcher', range: '*', hasData: true }
+258 silly addNameRange versions [ 'karma-safari-launcher',
+258 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.1.0', '0.1.1' ] ]
+259 verbose addNamed karma-safari-launcher@0.1.1
+260 silly addNamed semver.valid 0.1.1
+261 silly addNamed semver.validRange 0.1.1
+262 silly mapToRegistry name karma-chrome-launcher
+263 silly mapToRegistry using default registry
+264 silly mapToRegistry registry https://registry.npmjs.org/
+265 silly mapToRegistry uri https://registry.npmjs.org/karma-chrome-launcher
+266 verbose addRemoteTarball https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-0.1.8.tgz not in flight; adding
+267 verbose addRemoteTarball [ 'https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-0.1.8.tgz',
+267 verbose addRemoteTarball   '5ba43f821f64f531e4ff1e7d86caf95df9ac9142' ]
+268 silly addNameRange number 2 { name: 'karma-jasmine', range: '*', hasData: true }
+269 silly addNameRange versions [ 'karma-jasmine',
+269 silly addNameRange   [ '0.0.1',
+269 silly addNameRange     '0.0.2',
+269 silly addNameRange     '0.0.3',
+269 silly addNameRange     '0.1.0',
+269 silly addNameRange     '0.1.1',
+269 silly addNameRange     '0.1.2',
+269 silly addNameRange     '0.1.3',
+269 silly addNameRange     '0.1.4',
+269 silly addNameRange     '0.1.5',
+269 silly addNameRange     '0.2.0',
+269 silly addNameRange     '0.2.1',
+269 silly addNameRange     '0.2.2',
+269 silly addNameRange     '0.2.3',
+269 silly addNameRange     '0.3.0',
+269 silly addNameRange     '0.3.1',
+269 silly addNameRange     '0.3.2',
+269 silly addNameRange     '0.3.3',
+269 silly addNameRange     '0.3.4',
+269 silly addNameRange     '0.3.5' ] ]
+270 verbose addNamed karma-jasmine@0.3.5
+271 silly addNamed semver.valid 0.3.5
+272 silly addNamed semver.validRange 0.3.5
+273 silly mapToRegistry name karma-safari-launcher
+274 silly mapToRegistry using default registry
+275 silly mapToRegistry registry https://registry.npmjs.org/
+276 silly mapToRegistry uri https://registry.npmjs.org/karma-safari-launcher
+277 verbose addRemoteTarball https://registry.npmjs.org/karma-safari-launcher/-/karma-safari-launcher-0.1.1.tgz not in flight; adding
+278 verbose addRemoteTarball [ 'https://registry.npmjs.org/karma-safari-launcher/-/karma-safari-launcher-0.1.1.tgz',
+278 verbose addRemoteTarball   'a6380accab60a583fdd624f41b9a3f10fdf41008' ]
+279 silly mapToRegistry name karma-jasmine
+280 silly mapToRegistry using default registry
+281 silly mapToRegistry registry https://registry.npmjs.org/
+282 silly mapToRegistry uri https://registry.npmjs.org/karma-jasmine
+283 verbose addRemoteTarball https://registry.npmjs.org/karma-jasmine/-/karma-jasmine-0.3.5.tgz not in flight; adding
+284 verbose addRemoteTarball [ 'https://registry.npmjs.org/karma-jasmine/-/karma-jasmine-0.3.5.tgz',
+284 verbose addRemoteTarball   'd6c7bce49f0747b59b557156502a28009a44055d' ]
+285 info retry fetch attempt 1 at 5:46:30 PM
+286 info attempt registry request try #1 at 5:46:30 PM
+287 http fetch GET https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-0.1.8.tgz
+288 info retry fetch attempt 1 at 5:46:30 PM
+289 info attempt registry request try #1 at 5:46:30 PM
+290 http fetch GET https://registry.npmjs.org/karma-safari-launcher/-/karma-safari-launcher-0.1.1.tgz
+291 info retry fetch attempt 1 at 5:46:30 PM
+292 info attempt registry request try #1 at 5:46:30 PM
+293 http fetch GET https://registry.npmjs.org/karma-jasmine/-/karma-jasmine-0.3.5.tgz
+294 http 304 https://registry.npmjs.org/shelljs
+295 silly get cb [ 304,
+295 silly get   { date: 'Fri, 17 Apr 2015 21:46:30 GMT',
+295 silly get     server: 'Apache',
+295 silly get     via: '1.1 varnish',
+295 silly get     'last-modified': 'Fri, 17 Apr 2015 21:46:30 GMT',
+295 silly get     'cache-control': 'max-age=60',
+295 silly get     etag: '"F1RNB4VHJJHN31NZS9GSOVHOE"',
+295 silly get     age: '2',
+295 silly get     'x-served-by': 'cache-atl6229-ATL',
+295 silly get     'x-cache': 'HIT',
+295 silly get     'x-cache-hits': '1',
+295 silly get     'x-timer': 'S1429307190.951268,VS0,VE1',
+295 silly get     vary: 'Accept',
+295 silly get     'content-length': '0',
+295 silly get     'keep-alive': 'timeout=10, max=50',
+295 silly get     connection: 'Keep-Alive' } ]
+296 verbose etag https://registry.npmjs.org/shelljs from cache
+297 verbose get saving shelljs to /Users/herve/.npm/registry.npmjs.org/shelljs/.cache.json
+298 silly addNameRange number 2 { name: 'shelljs', range: '>=0.3.0 <0.4.0', hasData: true }
+299 silly addNameRange versions [ 'shelljs',
+299 silly addNameRange   [ '0.0.1',
+299 silly addNameRange     '0.0.2',
+299 silly addNameRange     '0.0.3',
+299 silly addNameRange     '0.0.4',
+299 silly addNameRange     '0.0.5',
+299 silly addNameRange     '0.0.6',
+299 silly addNameRange     '0.0.7',
+299 silly addNameRange     '0.0.8',
+299 silly addNameRange     '0.0.9',
+299 silly addNameRange     '0.1.0',
+299 silly addNameRange     '0.1.1',
+299 silly addNameRange     '0.1.2',
+299 silly addNameRange     '0.1.3',
+299 silly addNameRange     '0.1.4',
+299 silly addNameRange     '0.2.0',
+299 silly addNameRange     '0.2.1',
+299 silly addNameRange     '0.2.2',
+299 silly addNameRange     '0.2.3',
+299 silly addNameRange     '0.2.4',
+299 silly addNameRange     '0.2.5',
+299 silly addNameRange     '0.2.6',
+299 silly addNameRange     '0.3.0',
+299 silly addNameRange     '0.4.0',
+299 silly addNameRange     '0.0.1-alpha1',
+299 silly addNameRange     '0.0.2-pre1',
+299 silly addNameRange     '0.0.4-pre1',
+299 silly addNameRange     '0.0.5-pre1',
+299 silly addNameRange     '0.0.5-pre2',
+299 silly addNameRange     '0.0.5-pre3',
+299 silly addNameRange     '0.0.5-pre4',
+299 silly addNameRange     '0.0.6-pre1',
+299 silly addNameRange     '0.0.6-pre2' ] ]
+300 verbose addNamed shelljs@0.3.0
+301 silly addNamed semver.valid 0.3.0
+302 silly addNamed semver.validRange 0.3.0
+303 http 200 https://registry.npmjs.org/gulp-rename
+304 silly get cb [ 200,
+304 silly get   { date: 'Fri, 17 Apr 2015 21:46:30 GMT',
+304 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+304 silly get     etag: '"M59Y93CC06MF7RDGE94RGAMS"',
+304 silly get     'content-type': 'application/json',
+304 silly get     'cache-control': 'max-age=60',
+304 silly get     'content-length': '11955',
+304 silly get     'accept-ranges': 'bytes',
+304 silly get     via: '1.1 varnish',
+304 silly get     age: '19',
+304 silly get     'x-served-by': 'cache-atl6224-ATL',
+304 silly get     'x-cache': 'HIT',
+304 silly get     'x-cache-hits': '1',
+304 silly get     'x-timer': 'S1429307190.954335,VS0,VE0',
+304 silly get     vary: 'Accept',
+304 silly get     'keep-alive': 'timeout=10, max=50',
+304 silly get     connection: 'Keep-Alive' } ]
+305 verbose get saving gulp-rename to /Users/herve/.npm/registry.npmjs.org/gulp-rename/.cache.json
+306 http 304 https://registry.npmjs.org/gulp
+307 silly get cb [ 304,
+307 silly get   { date: 'Fri, 17 Apr 2015 21:46:30 GMT',
+307 silly get     server: 'Apache',
+307 silly get     via: '1.1 varnish',
+307 silly get     'last-modified': 'Fri, 17 Apr 2015 21:46:30 GMT',
+307 silly get     'cache-control': 'max-age=60',
+307 silly get     etag: '"7XOEYBN5R41TN9ADESYU81NDY"',
+307 silly get     age: '51',
+307 silly get     'x-served-by': 'cache-atl6223-ATL',
+307 silly get     'x-cache': 'HIT',
+307 silly get     'x-cache-hits': '1',
+307 silly get     'x-timer': 'S1429307190.958950,VS0,VE2',
+307 silly get     vary: 'Accept',
+307 silly get     'content-length': '0',
+307 silly get     'keep-alive': 'timeout=10, max=50',
+307 silly get     connection: 'Keep-Alive' } ]
+308 verbose etag https://registry.npmjs.org/gulp from cache
+309 verbose get saving gulp to /Users/herve/.npm/registry.npmjs.org/gulp/.cache.json
+310 silly addNameRange number 2 { name: 'gulp', range: '>=3.5.6 <4.0.0', hasData: true }
+311 silly addNameRange versions [ 'gulp',
+311 silly addNameRange   [ '0.0.1',
+311 silly addNameRange     '0.0.2',
+311 silly addNameRange     '0.0.3',
+311 silly addNameRange     '0.0.4',
+311 silly addNameRange     '0.0.5',
+311 silly addNameRange     '0.0.7',
+311 silly addNameRange     '0.0.8',
+311 silly addNameRange     '0.0.9',
+311 silly addNameRange     '0.1.0',
+311 silly addNameRange     '0.2.0',
+311 silly addNameRange     '1.0.0',
+311 silly addNameRange     '1.1.0',
+311 silly addNameRange     '1.2.0',
+311 silly addNameRange     '1.2.1',
+311 silly addNameRange     '2.0.0',
+311 silly addNameRange     '2.0.1',
+311 silly addNameRange     '2.1.0',
+311 silly addNameRange     '2.2.0',
+311 silly addNameRange     '2.3.0',
+311 silly addNameRange     '2.4.0',
+311 silly addNameRange     '2.4.1',
+311 silly addNameRange     '2.6.0',
+311 silly addNameRange     '2.6.1',
+311 silly addNameRange     '2.7.0',
+311 silly addNameRange     '3.0.0',
+311 silly addNameRange     '3.1.1',
+311 silly addNameRange     '3.1.2',
+311 silly addNameRange     '3.1.3',
+311 silly addNameRange     '3.1.4',
+311 silly addNameRange     '3.2.0',
+311 silly addNameRange     '3.2.1',
+311 silly addNameRange     '3.2.2',
+311 silly addNameRange     '3.2.3',
+311 silly addNameRange     '3.2.4',
+311 silly addNameRange     '3.2.5',
+311 silly addNameRange     '3.3.0',
+311 silly addNameRange     '3.3.1',
+311 silly addNameRange     '3.3.2',
+311 silly addNameRange     '3.3.4',
+311 silly addNameRange     '3.4.0',
+311 silly addNameRange     '3.5.0',
+311 silly addNameRange     '3.5.1',
+311 silly addNameRange     '3.5.2',
+311 silly addNameRange     '3.5.5',
+311 silly addNameRange     '3.5.6',
+311 silly addNameRange     '3.6.0',
+311 silly addNameRange     '3.6.1',
+311 silly addNameRange     '3.6.2',
+311 silly addNameRange     '3.7.0',
+311 silly addNameRange     '3.8.0',
+311 silly addNameRange     '3.8.1',
+311 silly addNameRange     '3.8.2',
+311 silly addNameRange     '3.8.3',
+311 silly addNameRange     '3.8.4',
+311 silly addNameRange     '3.8.5',
+311 silly addNameRange     '3.8.6',
+311 silly addNameRange     '3.8.7',
+311 silly addNameRange     '3.8.8',
+311 silly addNameRange     '3.8.9',
+311 silly addNameRange     '3.8.10',
+311 silly addNameRange     '3.8.11' ] ]
+312 verbose addNamed gulp@3.8.11
+313 silly addNamed semver.valid 3.8.11
+314 silly addNamed semver.validRange 3.8.11
+315 silly addNameRange number 2 { name: 'gulp-rename', range: '>=1.2.0 <2.0.0', hasData: true }
+316 silly addNameRange versions [ 'gulp-rename',
+316 silly addNameRange   [ '0.1.0', '0.2.1', '0.2.2', '1.0.0', '1.1.0', '1.2.0', '1.2.2' ] ]
+317 verbose addNamed gulp-rename@1.2.2
+318 silly addNamed semver.valid 1.2.2
+319 silly addNamed semver.validRange 1.2.2
+320 http 200 https://registry.npmjs.org/gulp-concat
+321 silly get cb [ 200,
+321 silly get   { date: 'Fri, 17 Apr 2015 21:46:30 GMT',
+321 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+321 silly get     etag: '"D35OZSMG3FU9DWIW6MSZUTQ1G"',
+321 silly get     'content-type': 'application/json',
+321 silly get     'cache-control': 'max-age=60',
+321 silly get     'content-length': '34799',
+321 silly get     'accept-ranges': 'bytes',
+321 silly get     via: '1.1 varnish',
+321 silly get     age: '19',
+321 silly get     'x-served-by': 'cache-atl6223-ATL',
+321 silly get     'x-cache': 'HIT',
+321 silly get     'x-cache-hits': '11',
+321 silly get     'x-timer': 'S1429307190.946144,VS0,VE0',
+321 silly get     vary: 'Accept',
+321 silly get     'keep-alive': 'timeout=10, max=50',
+321 silly get     connection: 'Keep-Alive' } ]
+322 verbose get saving gulp-concat to /Users/herve/.npm/registry.npmjs.org/gulp-concat/.cache.json
+323 http 200 https://registry.npmjs.org/gulp-sass
+324 silly get cb [ 200,
+324 silly get   { date: 'Fri, 17 Apr 2015 21:46:30 GMT',
+324 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+324 silly get     etag: '"AYBORDXO8R84T989MSDP64W8W"',
+324 silly get     'content-type': 'application/json',
+324 silly get     'cache-control': 'max-age=60',
+324 silly get     'content-length': '33348',
+324 silly get     'accept-ranges': 'bytes',
+324 silly get     via: '1.1 varnish',
+324 silly get     age: '19',
+324 silly get     'x-served-by': 'cache-atl6220-ATL',
+324 silly get     'x-cache': 'HIT',
+324 silly get     'x-cache-hits': '1',
+324 silly get     'x-timer': 'S1429307190.950866,VS0,VE0',
+324 silly get     vary: 'Accept',
+324 silly get     'keep-alive': 'timeout=10, max=50',
+324 silly get     connection: 'Keep-Alive' } ]
+325 verbose get saving gulp-sass to /Users/herve/.npm/registry.npmjs.org/gulp-sass/.cache.json
+326 silly cache afterAdd gulp@3.8.11
+327 verbose afterAdd /Users/herve/.npm/gulp/3.8.11/package/package.json not in flight; writing
+328 silly cache afterAdd shelljs@0.3.0
+329 verbose afterAdd /Users/herve/.npm/shelljs/0.3.0/package/package.json not in flight; writing
+330 verbose afterAdd /Users/herve/.npm/gulp/3.8.11/package/package.json written
+331 verbose afterAdd /Users/herve/.npm/shelljs/0.3.0/package/package.json written
+332 silly cache afterAdd gulp-rename@1.2.2
+333 verbose afterAdd /Users/herve/.npm/gulp-rename/1.2.2/package/package.json not in flight; writing
+334 silly addNameRange number 2 { name: 'gulp-sass', range: '>=1.3.3 <2.0.0', hasData: true }
+335 silly addNameRange versions [ 'gulp-sass',
+335 silly addNameRange   [ '0.1.0',
+335 silly addNameRange     '0.2.1',
+335 silly addNameRange     '0.2.2',
+335 silly addNameRange     '0.2.3',
+335 silly addNameRange     '0.3.0',
+335 silly addNameRange     '0.4.0',
+335 silly addNameRange     '0.4.1',
+335 silly addNameRange     '0.5.0',
+335 silly addNameRange     '0.5.1',
+335 silly addNameRange     '0.5.2',
+335 silly addNameRange     '0.6.0',
+335 silly addNameRange     '0.7.0',
+335 silly addNameRange     '0.7.1',
+335 silly addNameRange     '0.7.2',
+335 silly addNameRange     '0.7.3',
+335 silly addNameRange     '1.0.0',
+335 silly addNameRange     '1.1.0',
+335 silly addNameRange     '1.2.0',
+335 silly addNameRange     '1.2.1',
+335 silly addNameRange     '1.2.2',
+335 silly addNameRange     '1.2.3',
+335 silly addNameRange     '1.2.4',
+335 silly addNameRange     '1.3.0',
+335 silly addNameRange     '1.3.1',
+335 silly addNameRange     '1.3.2',
+335 silly addNameRange     '1.3.3',
+335 silly addNameRange     '2.0.0-alpha.1' ] ]
+336 verbose addNamed gulp-sass@1.3.3
+337 silly addNamed semver.valid 1.3.3
+338 silly addNamed semver.validRange 1.3.3
+339 silly addNameRange number 2 { name: 'gulp-concat', range: '>=2.2.0 <3.0.0', hasData: true }
+340 silly addNameRange versions [ 'gulp-concat',
+340 silly addNameRange   [ '0.0.1',
+340 silly addNameRange     '1.0.0',
+340 silly addNameRange     '1.1.0',
+340 silly addNameRange     '2.0.0',
+340 silly addNameRange     '2.1.0',
+340 silly addNameRange     '2.1.1',
+340 silly addNameRange     '2.1.2',
+340 silly addNameRange     '2.1.3',
+340 silly addNameRange     '2.1.4',
+340 silly addNameRange     '2.1.5',
+340 silly addNameRange     '2.1.6',
+340 silly addNameRange     '2.1.7',
+340 silly addNameRange     '2.2.0',
+340 silly addNameRange     '2.3.0',
+340 silly addNameRange     '2.3.3',
+340 silly addNameRange     '2.3.4',
+340 silly addNameRange     '2.3.5',
+340 silly addNameRange     '2.4.0',
+340 silly addNameRange     '2.4.1',
+340 silly addNameRange     '2.4.2',
+340 silly addNameRange     '2.4.3',
+340 silly addNameRange     '2.5.0',
+340 silly addNameRange     '2.5.1',
+340 silly addNameRange     '2.5.2' ] ]
+341 verbose addNamed gulp-concat@2.5.2
+342 silly addNamed semver.valid 2.5.2
+343 silly addNamed semver.validRange 2.5.2
+344 verbose afterAdd /Users/herve/.npm/gulp-rename/1.2.2/package/package.json written
+345 silly cache afterAdd gulp-sass@1.3.3
+346 verbose afterAdd /Users/herve/.npm/gulp-sass/1.3.3/package/package.json not in flight; writing
+347 verbose afterAdd /Users/herve/.npm/gulp-sass/1.3.3/package/package.json written
+348 silly cache afterAdd gulp-concat@2.5.2
+349 verbose afterAdd /Users/herve/.npm/gulp-concat/2.5.2/package/package.json not in flight; writing
+350 verbose afterAdd /Users/herve/.npm/gulp-concat/2.5.2/package/package.json written
+351 http 200 https://registry.npmjs.org/gulp-util
+352 silly get cb [ 200,
+352 silly get   { date: 'Fri, 17 Apr 2015 21:46:30 GMT',
+352 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+352 silly get     etag: '"1F3S7YRGC9E1JYDHP642F3Y4Y"',
+352 silly get     'content-type': 'application/json',
+352 silly get     'cache-control': 'max-age=60',
+352 silly get     'content-length': '55243',
+352 silly get     'accept-ranges': 'bytes',
+352 silly get     via: '1.1 varnish',
+352 silly get     age: '19',
+352 silly get     'x-served-by': 'cache-atl6223-ATL',
+352 silly get     'x-cache': 'HIT',
+352 silly get     'x-cache-hits': '1',
+352 silly get     'x-timer': 'S1429307190.962604,VS0,VE1',
+352 silly get     vary: 'Accept',
+352 silly get     'keep-alive': 'timeout=10, max=50',
+352 silly get     connection: 'Keep-Alive' } ]
+353 verbose get saving gulp-util to /Users/herve/.npm/registry.npmjs.org/gulp-util/.cache.json
+354 silly addNameRange number 2 { name: 'gulp-util', range: '>=2.2.14 <3.0.0', hasData: true }
+355 silly addNameRange versions [ 'gulp-util',
+355 silly addNameRange   [ '0.0.1',
+355 silly addNameRange     '1.0.0',
+355 silly addNameRange     '1.1.0',
+355 silly addNameRange     '1.1.1',
+355 silly addNameRange     '1.2.0',
+355 silly addNameRange     '1.3.0',
+355 silly addNameRange     '2.0.0',
+355 silly addNameRange     '2.1.1',
+355 silly addNameRange     '2.1.2',
+355 silly addNameRange     '2.1.3',
+355 silly addNameRange     '2.1.4',
+355 silly addNameRange     '2.2.0',
+355 silly addNameRange     '2.2.1',
+355 silly addNameRange     '2.2.2',
+355 silly addNameRange     '2.2.3',
+355 silly addNameRange     '2.2.5',
+355 silly addNameRange     '2.2.6',
+355 silly addNameRange     '2.2.7',
+355 silly addNameRange     '2.2.8',
+355 silly addNameRange     '2.2.9',
+355 silly addNameRange     '2.2.10',
+355 silly addNameRange     '2.2.11',
+355 silly addNameRange     '2.2.12',
+355 silly addNameRange     '2.2.13',
+355 silly addNameRange     '2.2.14',
+355 silly addNameRange     '2.2.15',
+355 silly addNameRange     '2.2.16',
+355 silly addNameRange     '2.2.17',
+355 silly addNameRange     '2.2.18',
+355 silly addNameRange     '2.2.19',
+355 silly addNameRange     '2.2.20',
+355 silly addNameRange     '3.0.0',
+355 silly addNameRange     '3.0.1',
+355 silly addNameRange     '3.0.2',
+355 silly addNameRange     '3.0.3',
+355 silly addNameRange     '3.0.4' ] ]
+356 verbose addNamed gulp-util@2.2.20
+357 silly addNamed semver.valid 2.2.20
+358 silly addNamed semver.validRange 2.2.20
+359 http 200 https://registry.npmjs.org/gulp-minify-css
+360 silly get cb [ 200,
+360 silly get   { date: 'Fri, 17 Apr 2015 21:46:30 GMT',
+360 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+360 silly get     etag: '"3WW1ACBB7M7F06SB2SNXAS1CW"',
+360 silly get     'content-type': 'application/json',
+360 silly get     'cache-control': 'max-age=60',
+360 silly get     'content-length': '42311',
+360 silly get     'accept-ranges': 'bytes',
+360 silly get     via: '1.1 varnish',
+360 silly get     age: '0',
+360 silly get     'x-served-by': 'cache-atl6234-ATL',
+360 silly get     'x-cache': 'HIT',
+360 silly get     'x-cache-hits': '1',
+360 silly get     'x-timer': 'S1429307190.954962,VS0,VE28',
+360 silly get     vary: 'Accept',
+360 silly get     'keep-alive': 'timeout=10, max=50',
+360 silly get     connection: 'Keep-Alive' } ]
+361 verbose get saving gulp-minify-css to /Users/herve/.npm/registry.npmjs.org/gulp-minify-css/.cache.json
+362 silly addNameRange number 2 { name: 'gulp-minify-css',
+362 silly addNameRange   range: '>=0.3.0 <0.4.0',
+362 silly addNameRange   hasData: true }
+363 silly addNameRange versions [ 'gulp-minify-css',
+363 silly addNameRange   [ '0.0.1',
+363 silly addNameRange     '0.1.0',
+363 silly addNameRange     '0.2.0',
+363 silly addNameRange     '0.3.0',
+363 silly addNameRange     '0.3.1',
+363 silly addNameRange     '0.3.2',
+363 silly addNameRange     '0.3.3',
+363 silly addNameRange     '0.3.4',
+363 silly addNameRange     '0.3.5',
+363 silly addNameRange     '0.3.6',
+363 silly addNameRange     '0.3.7',
+363 silly addNameRange     '0.3.8',
+363 silly addNameRange     '0.3.9',
+363 silly addNameRange     '0.3.10',
+363 silly addNameRange     '0.3.11',
+363 silly addNameRange     '0.3.12',
+363 silly addNameRange     '0.3.13',
+363 silly addNameRange     '0.4.0',
+363 silly addNameRange     '0.4.1',
+363 silly addNameRange     '0.4.2',
+363 silly addNameRange     '0.4.3',
+363 silly addNameRange     '0.4.4',
+363 silly addNameRange     '0.4.5',
+363 silly addNameRange     '0.4.6',
+363 silly addNameRange     '0.5.0',
+363 silly addNameRange     '0.5.1',
+363 silly addNameRange     '1.0.0' ] ]
+364 verbose addNamed gulp-minify-css@0.3.13
+365 silly addNamed semver.valid 0.3.13
+366 silly addNamed semver.validRange 0.3.13
+367 silly cache afterAdd gulp-util@2.2.20
+368 verbose afterAdd /Users/herve/.npm/gulp-util/2.2.20/package/package.json not in flight; writing
+369 silly cache afterAdd gulp-minify-css@0.3.13
+370 verbose afterAdd /Users/herve/.npm/gulp-minify-css/0.3.13/package/package.json not in flight; writing
+371 http fetch 200 https://registry.npmjs.org/karma-jasmine/-/karma-jasmine-0.3.5.tgz
+372 verbose afterAdd /Users/herve/.npm/gulp-minify-css/0.3.13/package/package.json written
+373 verbose afterAdd /Users/herve/.npm/gulp-util/2.2.20/package/package.json written
+374 silly fetchAndShaCheck shasum d6c7bce49f0747b59b557156502a28009a44055d
+375 verbose addTmpTarball /var/folders/r0/rfnk9_3j45l5mvxqt06xh_wc0000gn/T/npm-76466-8ed3d924/registry.npmjs.org/karma-jasmine/-/karma-jasmine-0.3.5.tgz not in flight; adding
+376 verbose addTmpTarball already have metadata; skipping unpack for karma-jasmine@0.3.5
+377 http fetch 200 https://registry.npmjs.org/karma-firefox-launcher/-/karma-firefox-launcher-0.1.4.tgz
+378 silly fetchAndShaCheck shasum 5d4abb4abba0e45e83fd94b1f6ff84ec46929c6b
+379 verbose addTmpTarball /var/folders/r0/rfnk9_3j45l5mvxqt06xh_wc0000gn/T/npm-76466-8ed3d924/registry.npmjs.org/karma-firefox-launcher/-/karma-firefox-launcher-0.1.4.tgz not in flight; adding
+380 verbose addTmpTarball already have metadata; skipping unpack for karma-firefox-launcher@0.1.4
+381 silly cache afterAdd karma-jasmine@0.3.5
+382 verbose afterAdd /Users/herve/.npm/karma-jasmine/0.3.5/package/package.json not in flight; writing
+383 verbose afterAdd /Users/herve/.npm/karma-jasmine/0.3.5/package/package.json written
+384 silly cache afterAdd karma-firefox-launcher@0.1.4
+385 verbose afterAdd /Users/herve/.npm/karma-firefox-launcher/0.1.4/package/package.json not in flight; writing
+386 verbose afterAdd /Users/herve/.npm/karma-firefox-launcher/0.1.4/package/package.json written
+387 http fetch 200 https://registry.npmjs.org/karma-safari-launcher/-/karma-safari-launcher-0.1.1.tgz
+388 silly fetchAndShaCheck shasum a6380accab60a583fdd624f41b9a3f10fdf41008
+389 http 200 https://registry.npmjs.org/bower
+390 silly get cb [ 200,
+390 silly get   { date: 'Fri, 17 Apr 2015 21:46:30 GMT',
+390 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+390 silly get     etag: '"67TYGFPW0ZAHCFMOMDD205HK4"',
+390 silly get     'content-type': 'application/json',
+390 silly get     'cache-control': 'max-age=60',
+390 silly get     'content-length': '111622',
+390 silly get     'accept-ranges': 'bytes',
+390 silly get     via: '1.1 varnish',
+390 silly get     age: '13',
+390 silly get     'x-served-by': 'cache-atl6230-ATL',
+390 silly get     'x-cache': 'HIT',
+390 silly get     'x-cache-hits': '1',
+390 silly get     'x-timer': 'S1429307190.963425,VS0,VE2',
+390 silly get     vary: 'Accept',
+390 silly get     'keep-alive': 'timeout=10, max=50',
+390 silly get     connection: 'Keep-Alive' } ]
+391 verbose get saving bower to /Users/herve/.npm/registry.npmjs.org/bower/.cache.json
+392 http fetch 200 https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-0.1.8.tgz
+393 verbose addTmpTarball /var/folders/r0/rfnk9_3j45l5mvxqt06xh_wc0000gn/T/npm-76466-8ed3d924/registry.npmjs.org/karma-safari-launcher/-/karma-safari-launcher-0.1.1.tgz not in flight; adding
+394 verbose addTmpTarball already have metadata; skipping unpack for karma-safari-launcher@0.1.1
+395 silly fetchAndShaCheck shasum 5ba43f821f64f531e4ff1e7d86caf95df9ac9142
+396 silly addNameRange number 2 { name: 'bower', range: '>=1.3.3 <2.0.0', hasData: true }
+397 silly addNameRange versions [ 'bower',
+397 silly addNameRange   [ '0.1.0',
+397 silly addNameRange     '0.1.2',
+397 silly addNameRange     '0.1.3',
+397 silly addNameRange     '0.2.0',
+397 silly addNameRange     '0.3.0',
+397 silly addNameRange     '0.3.1',
+397 silly addNameRange     '0.3.2',
+397 silly addNameRange     '0.4.0',
+397 silly addNameRange     '0.5.0',
+397 silly addNameRange     '0.5.1',
+397 silly addNameRange     '0.6.0',
+397 silly addNameRange     '0.6.1',
+397 silly addNameRange     '0.6.2',
+397 silly addNameRange     '0.6.3',
+397 silly addNameRange     '0.6.4',
+397 silly addNameRange     '0.6.5',
+397 silly addNameRange     '0.6.6',
+397 silly addNameRange     '0.6.7',
+397 silly addNameRange     '0.6.8',
+397 silly addNameRange     '0.7.0',
+397 silly addNameRange     '0.7.1',
+397 silly addNameRange     '0.8.0',
+397 silly addNameRange     '0.8.1',
+397 silly addNameRange     '0.8.2',
+397 silly addNameRange     '0.8.3',
+397 silly addNameRange     '0.8.4',
+397 silly addNameRange     '0.8.5',
+397 silly addNameRange     '0.8.6',
+397 silly addNameRange     '0.9.0',
+397 silly addNameRange     '0.9.1',
+397 silly addNameRange     '0.9.2',
+397 silly addNameRange     '0.10.0',
+397 silly addNameRange     '1.0.0',
+397 silly addNameRange     '1.0.1',
+397 silly addNameRange     '1.0.2',
+397 silly addNameRange     '1.0.3',
+397 silly addNameRange     '1.1.0',
+397 silly addNameRange     '1.1.1',
+397 silly addNameRange     '1.1.2',
+397 silly addNameRange     '1.2.0',
+397 silly addNameRange     '1.2.1',
+397 silly addNameRange     '1.2.2',
+397 silly addNameRange     '1.2.3',
+397 silly addNameRange     '1.2.4',
+397 silly addNameRange     '1.2.5',
+397 silly addNameRange     '1.2.6',
+397 silly addNameRange     '1.2.7',
+397 silly addNameRange     '1.2.8',
+397 silly addNameRange     '1.3.0',
+397 silly addNameRange     '1.3.1',
+397 silly addNameRange     '1.3.2',
+397 silly addNameRange     '1.3.3',
+397 silly addNameRange     '1.3.4',
+397 silly addNameRange     '1.3.5',
+397 silly addNameRange     '1.3.6',
+397 silly addNameRange     '1.3.7',
+397 silly addNameRange     '1.3.8',
+397 silly addNameRange     '1.3.9',
+397 silly addNameRange     '1.3.10',
+397 silly addNameRange     '1.3.11',
+397 silly addNameRange     '1.3.12',
+397 silly addNameRange     '1.4.0',
+397 silly addNameRange     '1.4.1' ] ]
+398 verbose addNamed bower@1.4.1
+399 silly addNamed semver.valid 1.4.1
+400 silly addNamed semver.validRange 1.4.1
+401 verbose addTmpTarball /var/folders/r0/rfnk9_3j45l5mvxqt06xh_wc0000gn/T/npm-76466-8ed3d924/registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-0.1.8.tgz not in flight; adding
+402 verbose addTmpTarball already have metadata; skipping unpack for karma-chrome-launcher@0.1.8
+403 silly cache afterAdd karma-safari-launcher@0.1.1
+404 verbose afterAdd /Users/herve/.npm/karma-safari-launcher/0.1.1/package/package.json not in flight; writing
+405 verbose afterAdd /Users/herve/.npm/karma-safari-launcher/0.1.1/package/package.json written
+406 silly cache afterAdd karma-chrome-launcher@0.1.8
+407 verbose afterAdd /Users/herve/.npm/karma-chrome-launcher/0.1.8/package/package.json not in flight; writing
+408 verbose afterAdd /Users/herve/.npm/karma-chrome-launcher/0.1.8/package/package.json written
+409 silly cache afterAdd bower@1.4.1
+410 verbose afterAdd /Users/herve/.npm/bower/1.4.1/package/package.json not in flight; writing
+411 verbose afterAdd /Users/herve/.npm/bower/1.4.1/package/package.json written
+412 http 200 https://registry.npmjs.org/karma
+413 silly get cb [ 200,
+413 silly get   { date: 'Fri, 17 Apr 2015 21:46:30 GMT',
+413 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+413 silly get     etag: '"3JEEZQ5SCYFOC6GL48HWF6HAW"',
+413 silly get     'content-type': 'application/json',
+413 silly get     'cache-control': 'max-age=60',
+413 silly get     'content-length': '688419',
+413 silly get     'accept-ranges': 'bytes',
+413 silly get     via: '1.1 varnish',
+413 silly get     age: '19',
+413 silly get     'x-served-by': 'cache-atl6223-ATL',
+413 silly get     'x-cache': 'HIT',
+413 silly get     'x-cache-hits': '1',
+413 silly get     'x-timer': 'S1429307190.846192,VS0,VE7',
+413 silly get     vary: 'Accept',
+413 silly get     'keep-alive': 'timeout=10, max=50',
+413 silly get     connection: 'Keep-Alive' } ]
+414 verbose get saving karma to /Users/herve/.npm/registry.npmjs.org/karma/.cache.json
+415 silly addNameRange number 2 { name: 'karma', range: '*', hasData: true }
+416 silly addNameRange versions [ 'karma',
+416 silly addNameRange   [ '0.8.0',
+416 silly addNameRange     '0.9.0-dart',
+416 silly addNameRange     '0.8.1',
+416 silly addNameRange     '0.8.2',
+416 silly addNameRange     '0.8.3',
+416 silly addNameRange     '0.9.0',
+416 silly addNameRange     '0.8.4',
+416 silly addNameRange     '0.9.1',
+416 silly addNameRange     '0.8.5',
+416 silly addNameRange     '0.9.2',
+416 silly addNameRange     '0.9.2-dart',
+416 silly addNameRange     '0.9.3',
+416 silly addNameRange     '0.8.6',
+416 silly addNameRange     '0.9.4',
+416 silly addNameRange     '0.8.7',
+416 silly addNameRange     '0.9.5',
+416 silly addNameRange     '0.9.6',
+416 silly addNameRange     '0.8.8',
+416 silly addNameRange     '0.9.7',
+416 silly addNameRange     '0.9.8',
+416 silly addNameRange     '0.10.0',
+416 silly addNameRange     '0.10.1',
+416 silly addNameRange     '0.10.2',
+416 silly addNameRange     '0.11.0',
+416 silly addNameRange     '0.11.1',
+416 silly addNameRange     '0.10.3',
+416 silly addNameRange     '0.10.4',
+416 silly addNameRange     '0.11.2',
+416 silly addNameRange     '0.11.3',
+416 silly addNameRange     '0.10.5',
+416 silly addNameRange     '0.11.4',
+416 silly addNameRange     '0.11.5',
+416 silly addNameRange     '0.10.6',
+416 silly addNameRange     '0.11.6',
+416 silly addNameRange     '0.10.7',
+416 silly addNameRange     '0.11.7',
+416 silly addNameRange     '0.11.8',
+416 silly addNameRange     '0.11.9',
+416 silly addNameRange     '0.10.8',
+416 silly addNameRange     '0.11.10',
+416 silly addNameRange     '0.11.11',
+416 silly addNameRange     '0.11.12',
+416 silly addNameRange     '0.11.11-dev',
+416 silly addNameRange     '0.10.9',
+416 silly addNameRange     '0.11.12-dev',
+416 silly addNameRange     '0.11.12-dev2',
+416 silly addNameRange     '0.11.13',
+416 silly addNameRange     '0.11.14',
+416 silly addNameRange     '0.12.0',
+416 silly addNameRange     '0.10.10',
+416 silly addNameRange     '0.12.1',
+416 silly addNameRange     '0.12.2',
+416 silly addNameRange     '0.12.3',
+416 silly addNameRange     '0.12.4',
+416 silly addNameRange     '0.12.5',
+416 silly addNameRange     '0.12.6',
+416 silly addNameRange     '0.12.6-beta-43e6e28',
+416 silly addNameRange     '0.12.7',
+416 silly addNameRange     '0.12.8',
+416 silly addNameRange     '0.12.9',
+416 silly addNameRange     '0.12.10',
+416 silly addNameRange     '0.12.11',
+416 silly addNameRange     '0.12.12',
+416 silly addNameRange     '0.12.11-beta-3029418',
+416 silly addNameRange     '0.12.13',
+416 silly addNameRange     '0.12.14',
+416 silly addNameRange     '0.12.15',
+416 silly addNameRange     '0.12.16',
+416 silly addNameRange     '0.12.16-beta-905422d',
+416 silly addNameRange     '0.12.17',
+416 silly addNameRange     '0.12.18',
+416 silly addNameRange     '0.12.19',
+416 silly addNameRange     '0.12.20',
+416 silly addNameRange     '0.12.21',
+416 silly addNameRange     '0.12.22',
+416 silly addNameRange     '0.12.23',
+416 silly addNameRange     '0.12.24',
+416 silly addNameRange     '0.12.24-beta-6cf7955',
+416 silly addNameRange     '0.12.25',
+416 silly addNameRange     '0.12.25-beta-37a7958',
+416 silly addNameRange     '0.12.25-beta-ad5bc24',
+416 silly addNameRange     '0.12.26',
+416 silly addNameRange     '0.12.27',
+416 silly addNameRange     '0.12.28',
+416 silly addNameRange     '0.12.28-beta-b9be580',
+416 silly addNameRange     '0.12.29',
+416 silly addNameRange     '0.12.30',
+416 silly addNameRange     '0.12.31',
+416 silly addNameRange     '0.12.28-beta-f65c864',
+416 silly addNameRange     '0.12.24-dev-test',
+416 silly addNameRange     '0.12.24-dev-socketio10',
+416 silly addNameRange     '0.12.24-dev-socketio10-2',
+416 silly addNameRange     '0.12.32-beta.0',
+416 silly addNameRange     '0.12.32' ] ]
+417 verbose addNamed karma@0.12.31
+418 silly addNamed semver.valid 0.12.31
+419 silly addNamed semver.validRange 0.12.31
+420 silly mapToRegistry name karma
+421 silly mapToRegistry using default registry
+422 silly mapToRegistry registry https://registry.npmjs.org/
+423 silly mapToRegistry uri https://registry.npmjs.org/karma
+424 verbose addRemoteTarball https://registry.npmjs.org/karma/-/karma-0.12.31.tgz not in flight; adding
+425 verbose addRemoteTarball [ 'https://registry.npmjs.org/karma/-/karma-0.12.31.tgz',
+425 verbose addRemoteTarball   '806aa7c2acb13a39edb9374a7a477e643a5e94c9' ]
+426 info retry fetch attempt 1 at 5:46:31 PM
+427 info attempt registry request try #1 at 5:46:31 PM
+428 http fetch GET https://registry.npmjs.org/karma/-/karma-0.12.31.tgz
+429 http fetch 200 https://registry.npmjs.org/karma/-/karma-0.12.31.tgz
+430 silly fetchAndShaCheck shasum 806aa7c2acb13a39edb9374a7a477e643a5e94c9
+431 verbose addTmpTarball /var/folders/r0/rfnk9_3j45l5mvxqt06xh_wc0000gn/T/npm-76466-8ed3d924/registry.npmjs.org/karma/-/karma-0.12.31.tgz not in flight; adding
+432 verbose addTmpTarball already have metadata; skipping unpack for karma@0.12.31
+433 silly cache afterAdd karma@0.12.31
+434 verbose afterAdd /Users/herve/.npm/karma/0.12.31/package/package.json not in flight; writing
+435 verbose afterAdd /Users/herve/.npm/karma/0.12.31/package/package.json written
+436 silly install resolved [ { name: 'gulp',
+436 silly install resolved     description: 'The streaming build system',
+436 silly install resolved     version: '3.8.11',
+436 silly install resolved     homepage: 'http://gulpjs.com',
+436 silly install resolved     repository: { type: 'git', url: 'https://github.com/gulpjs/gulp' },
+436 silly install resolved     author:
+436 silly install resolved      { name: 'Fractal',
+436 silly install resolved        email: 'contact@wearefractal.com',
+436 silly install resolved        url: 'http://wearefractal.com/' },
+436 silly install resolved     tags: [ 'build', 'stream', 'system', 'make', 'tool', 'asset', 'pipeline' ],
+436 silly install resolved     files: [ 'index.js', 'lib', 'bin', 'completion' ],
+436 silly install resolved     bin: { gulp: './bin/gulp.js' },
+436 silly install resolved     man: [ 'gulp.1' ],
+436 silly install resolved     dependencies:
+436 silly install resolved      { archy: '^1.0.0',
+436 silly install resolved        chalk: '^0.5.0',
+436 silly install resolved        deprecated: '^0.0.1',
+436 silly install resolved        'gulp-util': '^3.0.0',
+436 silly install resolved        interpret: '^0.3.2',
+436 silly install resolved        liftoff: '^2.0.1',
+436 silly install resolved        minimist: '^1.1.0',
+436 silly install resolved        orchestrator: '^0.3.0',
+436 silly install resolved        'pretty-hrtime': '^0.2.0',
+436 silly install resolved        semver: '^4.1.0',
+436 silly install resolved        tildify: '^1.0.0',
+436 silly install resolved        v8flags: '^2.0.2',
+436 silly install resolved        'vinyl-fs': '^0.3.0' },
+436 silly install resolved     devDependencies:
+436 silly install resolved      { coveralls: '^2.7.0',
+436 silly install resolved        'graceful-fs': '^3.0.0',
+436 silly install resolved        istanbul: '^0.3.0',
+436 silly install resolved        jshint: '^2.5.0',
+436 silly install resolved        'jshint-stylish': '^1.0.0',
+436 silly install resolved        'marked-man': '^0.1.3',
+436 silly install resolved        mkdirp: '^0.5.0',
+436 silly install resolved        mocha: '^2.0.1',
+436 silly install resolved        'mocha-lcov-reporter': '^0.0.1',
+436 silly install resolved        q: '^1.0.0',
+436 silly install resolved        rimraf: '^2.2.5',
+436 silly install resolved        should: '^4.0.0' },
+436 silly install resolved     scripts:
+436 silly install resolved      { prepublish: 'marked-man --name gulp docs/CLI.md > gulp.1',
+436 silly install resolved        lint: 'jshint lib bin index.js --reporter node_modules/jshint-stylish/stylish.js --exclude node_modules',
+436 silly install resolved        test: 'npm run-script lint && mocha --reporter spec',
+436 silly install resolved        coveralls: 'istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage' },
+436 silly install resolved     engineStrict: true,
+436 silly install resolved     engines: { node: '>= 0.9' },
+436 silly install resolved     licenses: [ [Object] ],
+436 silly install resolved     gitHead: '84df40b0faabc2b61d576154fd1145e2146377ca',
+436 silly install resolved     bugs: { url: 'https://github.com/gulpjs/gulp/issues' },
+436 silly install resolved     _id: 'gulp@3.8.11',
+436 silly install resolved     _shasum: 'd557e0a7283eb4136491969b0497767972f1d28a',
+436 silly install resolved     _from: 'gulp@>=3.5.6 <4.0.0',
+436 silly install resolved     _npmVersion: '2.5.1',
+436 silly install resolved     _nodeVersion: '0.12.0',
+436 silly install resolved     _npmUser: { name: 'phated', email: 'blaine@iceddev.com' },
+436 silly install resolved     maintainers: [ [Object], [Object] ],
+436 silly install resolved     dist:
+436 silly install resolved      { shasum: 'd557e0a7283eb4136491969b0497767972f1d28a',
+436 silly install resolved        tarball: 'http://registry.npmjs.org/gulp/-/gulp-3.8.11.tgz' },
+436 silly install resolved     directories: {},
+436 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp/-/gulp-3.8.11.tgz',
+436 silly install resolved     readme: 'ERROR: No README data found!' },
+436 silly install resolved   { name: 'shelljs',
+436 silly install resolved     version: '0.3.0',
+436 silly install resolved     author: { name: 'Artur Adib', email: 'aadib@mozilla.com' },
+436 silly install resolved     description: 'Portable Unix shell commands for Node.js',
+436 silly install resolved     keywords: [ 'unix', 'shell', 'makefile', 'make', 'jake', 'synchronous' ],
+436 silly install resolved     repository: { type: 'git', url: 'git://github.com/arturadib/shelljs.git' },
+436 silly install resolved     license: 'BSD*',
+436 silly install resolved     homepage: 'http://github.com/arturadib/shelljs',
+436 silly install resolved     main: './shell.js',
+436 silly install resolved     scripts: { test: 'node scripts/run-tests' },
+436 silly install resolved     bin: { shjs: './bin/shjs' },
+436 silly install resolved     dependencies: {},
+436 silly install resolved     devDependencies: { jshint: '~2.1.11' },
+436 silly install resolved     optionalDependencies: {},
+436 silly install resolved     engines: { node: '>=0.8.0' },
+436 silly install resolved     bugs: { url: 'https://github.com/arturadib/shelljs/issues' },
+436 silly install resolved     _id: 'shelljs@0.3.0',
+436 silly install resolved     dist:
+436 silly install resolved      { shasum: '3596e6307a781544f591f37da618360f31db57b1',
+436 silly install resolved        tarball: 'http://registry.npmjs.org/shelljs/-/shelljs-0.3.0.tgz' },
+436 silly install resolved     _from: 'shelljs@>=0.3.0 <0.4.0',
+436 silly install resolved     _npmVersion: '1.3.11',
+436 silly install resolved     _npmUser: { name: 'artur', email: 'arturadib@gmail.com' },
+436 silly install resolved     maintainers: [ [Object] ],
+436 silly install resolved     directories: {},
+436 silly install resolved     _shasum: '3596e6307a781544f591f37da618360f31db57b1',
+436 silly install resolved     _resolved: 'https://registry.npmjs.org/shelljs/-/shelljs-0.3.0.tgz',
+436 silly install resolved     readme: 'ERROR: No README data found!' },
+436 silly install resolved   { name: 'gulp-rename',
+436 silly install resolved     version: '1.2.2',
+436 silly install resolved     description: 'Rename files',
+436 silly install resolved     keywords: [ 'gulpplugin' ],
+436 silly install resolved     homepage: 'https://github.com/hparra/gulp-rename',
+436 silly install resolved     bugs: { url: 'https://github.com/hparra/gulp-rename/issues' },
+436 silly install resolved     author:
+436 silly install resolved      { name: 'Hector Guillermo Parra Alvarez',
+436 silly install resolved        email: 'hector@hectorparra.com',
+436 silly install resolved        url: 'https://github.com/hparra' },
+436 silly install resolved     main: './index.js',
+436 silly install resolved     files: [ 'index.js' ],
+436 silly install resolved     repository: { type: 'git', url: 'git://github.com/hparra/gulp-rename.git' },
+436 silly install resolved     scripts: { pretest: 'jshint index.js test/', test: 'mocha' },
+436 silly install resolved     devDependencies:
+436 silly install resolved      { gulp: '>=3.0.0',
+436 silly install resolved        'gulp-sourcemaps': '^1.5.0',
+436 silly install resolved        'gulp-util': '^3.0.4',
+436 silly install resolved        jshint: '^2.6.3',
+436 silly install resolved        'map-stream': '>=0.0.4',
+436 silly install resolved        mocha: '>=1.15.0',
+436 silly install resolved        should: '>=2.1.0' },
+436 silly install resolved     engines: { node: '>=0.10.0', npm: '>=1.2.10' },
+436 silly install resolved     licenses: [ [Object] ],
+436 silly install resolved     gitHead: 'e1fb4e41dd107b38e96f1156fcbee70ebcf16fb6',
+436 silly install resolved     _id: 'gulp-rename@1.2.2',
+436 silly install resolved     _shasum: '3ad4428763f05e2764dec1c67d868db275687817',
+436 silly install resolved     _from: 'gulp-rename@>=1.2.0 <2.0.0',
+436 silly install resolved     _npmVersion: '1.4.28',
+436 silly install resolved     _npmUser: { name: 'fractal', email: 'contact@wearefractal.com' },
+436 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+436 silly install resolved     dist:
+436 silly install resolved      { shasum: '3ad4428763f05e2764dec1c67d868db275687817',
+436 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-rename/-/gulp-rename-1.2.2.tgz' },
+436 silly install resolved     directories: {},
+436 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-rename/-/gulp-rename-1.2.2.tgz',
+436 silly install resolved     readme: 'ERROR: No README data found!' },
+436 silly install resolved   { name: 'gulp-sass',
+436 silly install resolved     version: '1.3.3',
+436 silly install resolved     description: 'Gulp plugin for sass',
+436 silly install resolved     main: 'index.js',
+436 silly install resolved     scripts: { test: 'node test/test.js' },
+436 silly install resolved     repository: { type: 'git', url: 'git://github.com/dlmanning/gulp-sass' },
+436 silly install resolved     keywords: [ 'gulpplugin', 'sass', 'gulp' ],
+436 silly install resolved     author: { name: 'David Manning' },
+436 silly install resolved     license: 'MIT',
+436 silly install resolved     bugs: { url: 'https://github.com/dlmanning/gulp-sass/issues' },
+436 silly install resolved     dependencies:
+436 silly install resolved      { clone: '~0.1.18',
+436 silly install resolved        'gulp-util': '^3.0',
+436 silly install resolved        'map-stream': '~0.1',
+436 silly install resolved        'node-sass': '^2.0.1',
+436 silly install resolved        'vinyl-sourcemaps-apply': '~0.1.1' },
+436 silly install resolved     devDependencies: { tape: '~2.3', 'concat-stream': '~1.4' },
+436 silly install resolved     jshintConfig: { laxcomma: true },
+436 silly install resolved     gitHead: '314ce5c1594e541a55e5c5009fb0733c45226567',
+436 silly install resolved     homepage: 'https://github.com/dlmanning/gulp-sass',
+436 silly install resolved     _id: 'gulp-sass@1.3.3',
+436 silly install resolved     _shasum: '66da87646bbfd299988c8ebbe94cefaff50e5662',
+436 silly install resolved     _from: 'gulp-sass@>=1.3.3 <2.0.0',
+436 silly install resolved     _npmVersion: '2.5.1',
+436 silly install resolved     _nodeVersion: '1.2.0',
+436 silly install resolved     _npmUser: { name: 'dlmanning', email: 'dlmanning@me.com' },
+436 silly install resolved     maintainers: [ [Object] ],
+436 silly install resolved     dist:
+436 silly install resolved      { shasum: '66da87646bbfd299988c8ebbe94cefaff50e5662',
+436 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-sass/-/gulp-sass-1.3.3.tgz' },
+436 silly install resolved     directories: {},
+436 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-sass/-/gulp-sass-1.3.3.tgz',
+436 silly install resolved     readme: 'ERROR: No README data found!' },
+436 silly install resolved   { name: 'gulp-concat',
+436 silly install resolved     description: 'Concatenates files',
+436 silly install resolved     version: '2.5.2',
+436 silly install resolved     repository:
+436 silly install resolved      { type: 'git',
+436 silly install resolved        url: 'https://github.com/wearefractal/gulp-concat' },
+436 silly install resolved     author:
+436 silly install resolved      { name: 'Fractal',
+436 silly install resolved        email: 'contact@wearefractal.com',
+436 silly install resolved        url: 'http://wearefractal.com/' },
+436 silly install resolved     files: [ 'index.js' ],
+436 silly install resolved     keywords: [ 'gulpplugin' ],
+436 silly install resolved     dependencies:
+436 silly install resolved      { 'concat-with-sourcemaps': '^1.0.0',
+436 silly install resolved        'gulp-util': '^3.0.1',
+436 silly install resolved        through2: '^0.6.3' },
+436 silly install resolved     devDependencies:
+436 silly install resolved      { gulp: '^3.8.7',
+436 silly install resolved        'gulp-sourcemaps': '^1.1.4',
+436 silly install resolved        istanbul: '^0.3.2',
+436 silly install resolved        mocha: '^2.0.1',
+436 silly install resolved        'mocha-lcov-reporter': '0.0.1',
+436 silly install resolved        should: '^5.0.0',
+436 silly install resolved        'stream-array': '^1.0.1',
+436 silly install resolved        'stream-assert': '^2.0.1' },
+436 silly install resolved     scripts: { test: 'mocha', coverage: 'istanbul cover _mocha' },
+436 silly install resolved     engines: { node: '>= 0.10' },
+436 silly install resolved     licenses: [ [Object] ],
+436 silly install resolved     gitHead: '21de607f81a4ef6fcc713f4839c2ffb2f44a3d42',
+436 silly install resolved     bugs: { url: 'https://github.com/wearefractal/gulp-concat/issues' },
+436 silly install resolved     homepage: 'https://github.com/wearefractal/gulp-concat',
+436 silly install resolved     _id: 'gulp-concat@2.5.2',
+436 silly install resolved     _shasum: 'd644372cdc2b3cdb421a8a941c8d74e21d815f14',
+436 silly install resolved     _from: 'gulp-concat@>=2.2.0 <3.0.0',
+436 silly install resolved     _npmVersion: '2.5.0',
+436 silly install resolved     _nodeVersion: '0.10.35',
+436 silly install resolved     _npmUser: { name: 'fractal', email: 'contact@wearefractal.com' },
+436 silly install resolved     maintainers: [ [Object] ],
+436 silly install resolved     dist:
+436 silly install resolved      { shasum: 'd644372cdc2b3cdb421a8a941c8d74e21d815f14',
+436 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-concat/-/gulp-concat-2.5.2.tgz' },
+436 silly install resolved     directories: {},
+436 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-concat/-/gulp-concat-2.5.2.tgz',
+436 silly install resolved     readme: 'ERROR: No README data found!' },
+436 silly install resolved   { name: 'gulp-minify-css',
+436 silly install resolved     description: 'Minify css with clean-css.',
+436 silly install resolved     version: '0.3.13',
+436 silly install resolved     repository:
+436 silly install resolved      { type: 'git',
+436 silly install resolved        url: 'https://github.com/jonathanepollack/gulp-minify-css.git' },
+436 silly install resolved     homepage: 'https://github.com/jonathanepollack/gulp-minify-css',
+436 silly install resolved     keywords: [ 'gulpplugin', 'minify', 'css' ],
+436 silly install resolved     main: './index.js',
+436 silly install resolved     engines: { node: '>= 0.10' },
+436 silly install resolved     scripts: { test: 'mocha' },
+436 silly install resolved     dependencies:
+436 silly install resolved      { 'gulp-util': '~3.0.1',
+436 silly install resolved        'clean-css': '~3.0.4',
+436 silly install resolved        through2: '^0.6.1',
+436 silly install resolved        bufferstreams: '0.0.2',
+436 silly install resolved        'memory-cache': '0.0.5',
+436 silly install resolved        'vinyl-sourcemaps-apply': '^0.1.4' },
+436 silly install resolved     devDependencies:
+436 silly install resolved      { mocha: '^1.21.4',
+436 silly install resolved        chai: '^1.9.0',
+436 silly install resolved        gulp: '^3.8.8',
+436 silly install resolved        'gulp-sourcemaps': '^1.3.0',
+436 silly install resolved        proxyquire: '^1.0.1',
+436 silly install resolved        'event-stream': '^3.1.0' },
+436 silly install resolved     licenses: [ [Object] ],
+436 silly install resolved     gitHead: 'e8dc2186b632e4696ed5b1dfa50ad597b815a0dd',
+436 silly install resolved     bugs: { url: 'https://github.com/jonathanepollack/gulp-minify-css/issues' },
+436 silly install resolved     _id: 'gulp-minify-css@0.3.13',
+436 silly install resolved     _shasum: 'ba813c665422868305383ccd185f239c1e35209b',
+436 silly install resolved     _from: 'gulp-minify-css@>=0.3.0 <0.4.0',
+436 silly install resolved     _npmVersion: '2.0.0',
+436 silly install resolved     _npmUser:
+436 silly install resolved      { name: 'jonathanepollack',
+436 silly install resolved        email: 'jonathanepollack@gmail.com' },
+436 silly install resolved     maintainers: [ [Object] ],
+436 silly install resolved     dist:
+436 silly install resolved      { shasum: 'ba813c665422868305383ccd185f239c1e35209b',
+436 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-minify-css/-/gulp-minify-css-0.3.13.tgz' },
+436 silly install resolved     directories: {},
+436 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-minify-css/-/gulp-minify-css-0.3.13.tgz',
+436 silly install resolved     readme: 'ERROR: No README data found!' },
+436 silly install resolved   { name: 'gulp-util',
+436 silly install resolved     description: 'Utility functions for gulp plugins',
+436 silly install resolved     version: '2.2.20',
+436 silly install resolved     homepage: 'http://github.com/wearefractal/gulp-util',
+436 silly install resolved     repository:
+436 silly install resolved      { type: 'git',
+436 silly install resolved        url: 'git://github.com/wearefractal/gulp-util.git' },
+436 silly install resolved     author:
+436 silly install resolved      { name: 'Fractal',
+436 silly install resolved        email: 'contact@wearefractal.com',
+436 silly install resolved        url: 'http://wearefractal.com/' },
+436 silly install resolved     main: './index.js',
+436 silly install resolved     dependencies:
+436 silly install resolved      { chalk: '^0.5.0',
+436 silly install resolved        dateformat: '^1.0.7-1.2.3',
+436 silly install resolved        'lodash._reinterpolate': '^2.4.1',
+436 silly install resolved        'lodash.template': '^2.4.1',
+436 silly install resolved        minimist: '^0.2.0',
+436 silly install resolved        multipipe: '^0.1.0',
+436 silly install resolved        through2: '^0.5.0',
+436 silly install resolved        vinyl: '^0.2.1' },
+436 silly install resolved     devDependencies:
+436 silly install resolved      { mocha: '^1.17.0',
+436 silly install resolved        should: '^4.0.0',
+436 silly install resolved        'mocha-lcov-reporter': '^0.0.1',
+436 silly install resolved        coveralls: '^2.7.0',
+436 silly install resolved        istanbul: '^0.2.3',
+436 silly install resolved        rimraf: '^2.2.5',
+436 silly install resolved        jshint: '^2.4.1',
+436 silly install resolved        'buffer-equal': '~0.0.1',
+436 silly install resolved        'lodash.templatesettings': '^2.4.1',
+436 silly install resolved        'event-stream': '^3.1.0' },
+436 silly install resolved     scripts:
+436 silly install resolved      { test: 'mocha --reporter spec && jshint',
+436 silly install resolved        coveralls: 'istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage' },
+436 silly install resolved     engines: { node: '>= 0.9' },
+436 silly install resolved     licenses: [ [Object] ],
+436 silly install resolved     gitHead: 'a44e450cfbe65fa4902b198bead4c65722cced0a',
+436 silly install resolved     bugs: { url: 'https://github.com/wearefractal/gulp-util/issues' },
+436 silly install resolved     _id: 'gulp-util@2.2.20',
+436 silly install resolved     _shasum: 'd7146e5728910bd8f047a6b0b1e549bc22dbd64c',
+436 silly install resolved     _from: 'gulp-util@>=2.2.14 <3.0.0',
+436 silly install resolved     _npmVersion: '1.5.0-alpha-1',
+436 silly install resolved     _npmUser: { name: 'fractal', email: 'contact@wearefractal.com' },
+436 silly install resolved     maintainers: [ [Object] ],
+436 silly install resolved     dist:
+436 silly install resolved      { shasum: 'd7146e5728910bd8f047a6b0b1e549bc22dbd64c',
+436 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-util/-/gulp-util-2.2.20.tgz' },
+436 silly install resolved     directories: {},
+436 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-util/-/gulp-util-2.2.20.tgz',
+436 silly install resolved     readme: 'ERROR: No README data found!' },
+436 silly install resolved   { name: 'karma-jasmine',
+436 silly install resolved     version: '0.3.5',
+436 silly install resolved     description: 'A Karma plugin - adapter for Jasmine testing framework.',
+436 silly install resolved     main: 'lib/index.js',
+436 silly install resolved     scripts: { test: 'grunt test' },
+436 silly install resolved     repository:
+436 silly install resolved      { type: 'git',
+436 silly install resolved        url: 'git://github.com/karma-runner/karma-jasmine.git' },
+436 silly install resolved     keywords: [ 'karma-plugin', 'karma-adapter', 'jasmine' ],
+436 silly install resolved     author: { name: 'Vojta Jina', email: 'vojta.jina@gmail.com' },
+436 silly install resolved     dependencies: {},
+436 silly install resolved     devDependencies:
+436 silly install resolved      { grunt: '~0.4.1',
+436 silly install resolved        'grunt-contrib-jshint': '~0.6',
+436 silly install resolved        karma: '~0.12.0',
+436 silly install resolved        'karma-jasmine': '~0.1.0',
+436 silly install resolved        'karma-chrome-launcher': '~0.1.0',
+436 silly install resolved        'karma-firefox-launcher': '~0.1.0',
+436 silly install resolved        'grunt-karma': '~0.8.0',
+436 silly install resolved        'grunt-auto-release': '~0.0.2',
+436 silly install resolved        'grunt-npm': '~0.0.2',
+436 silly install resolved        'grunt-bump': '~0.0.7',
+436 silly install resolved        'jasmine-core': '~2.1.0' },
+436 silly install resolved     peerDependencies: { karma: '>=0.9', 'jasmine-core': '*' },
+436 silly install resolved     license: 'MIT',
+436 silly install resolved     contributors:
+436 silly install resolved      [ [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object] ],
+436 silly install resolved     bugs: { url: 'https://github.com/karma-runner/karma-jasmine/issues' },
+436 silly install resolved     homepage: 'https://github.com/karma-runner/karma-jasmine',
+436 silly install resolved     _id: 'karma-jasmine@0.3.5',
+436 silly install resolved     dist:
+436 silly install resolved      { shasum: 'd6c7bce49f0747b59b557156502a28009a44055d',
+436 silly install resolved        tarball: 'http://registry.npmjs.org/karma-jasmine/-/karma-jasmine-0.3.5.tgz' },
+436 silly install resolved     _from: 'karma-jasmine@*',
+436 silly install resolved     _npmVersion: '1.4.4',
+436 silly install resolved     _npmUser: { name: 'vojtajina', email: 'vojta.jina@gmail.com' },
+436 silly install resolved     maintainers: [ [Object], [Object] ],
+436 silly install resolved     directories: {},
+436 silly install resolved     _shasum: 'd6c7bce49f0747b59b557156502a28009a44055d',
+436 silly install resolved     _resolved: 'https://registry.npmjs.org/karma-jasmine/-/karma-jasmine-0.3.5.tgz' },
+436 silly install resolved   { name: 'karma-firefox-launcher',
+436 silly install resolved     version: '0.1.4',
+436 silly install resolved     description: 'A Karma plugin. Launcher for Firefox.',
+436 silly install resolved     main: 'index.js',
+436 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+436 silly install resolved     repository:
+436 silly install resolved      { type: 'git',
+436 silly install resolved        url: 'git://github.com/karma-runner/karma-firefox-launcher.git' },
+436 silly install resolved     keywords: [ 'karma-plugin', 'karma-launcher', 'firefox' ],
+436 silly install resolved     author: { name: 'Vojta Jina', email: 'vojta.jina@gmail.com' },
+436 silly install resolved     dependencies: {},
+436 silly install resolved     peerDependencies: { karma: '>=0.9' },
+436 silly install resolved     license: 'MIT',
+436 silly install resolved     devDependencies:
+436 silly install resolved      { grunt: '~0.4.1',
+436 silly install resolved        'grunt-npm': '~0.0.2',
+436 silly install resolved        'grunt-bump': '~0.0.7',
+436 silly install resolved        'grunt-auto-release': '~0.0.2' },
+436 silly install resolved     contributors:
+436 silly install resolved      [ [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object] ],
+436 silly install resolved     bugs: { url: 'https://github.com/karma-runner/karma-firefox-launcher/issues' },
+436 silly install resolved     homepage: 'https://github.com/karma-runner/karma-firefox-launcher',
+436 silly install resolved     _id: 'karma-firefox-launcher@0.1.4',
+436 silly install resolved     dist:
+436 silly install resolved      { shasum: '5d4abb4abba0e45e83fd94b1f6ff84ec46929c6b',
+436 silly install resolved        tarball: 'http://registry.npmjs.org/karma-firefox-launcher/-/karma-firefox-launcher-0.1.4.tgz' },
+436 silly install resolved     _from: 'karma-firefox-launcher@*',
+436 silly install resolved     _npmVersion: '1.4.4',
+436 silly install resolved     _npmUser: { name: 'vojtajina', email: 'vojta.jina@gmail.com' },
+436 silly install resolved     maintainers: [ [Object] ],
+436 silly install resolved     directories: {},
+436 silly install resolved     _shasum: '5d4abb4abba0e45e83fd94b1f6ff84ec46929c6b',
+436 silly install resolved     _resolved: 'https://registry.npmjs.org/karma-firefox-launcher/-/karma-firefox-launcher-0.1.4.tgz' },
+436 silly install resolved   { name: 'karma-safari-launcher',
+436 silly install resolved     version: '0.1.1',
+436 silly install resolved     description: 'A Karma plugin. Launcher for Safari.',
+436 silly install resolved     main: 'index.js',
+436 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+436 silly install resolved     repository:
+436 silly install resolved      { type: 'git',
+436 silly install resolved        url: 'git://github.com/karma-runner/karma-safari-launcher.git' },
+436 silly install resolved     keywords: [ 'karma-plugin', 'karma-launcher', 'safari' ],
+436 silly install resolved     author: { name: 'Vojta Jina', email: 'vojta.jina@gmail.com' },
+436 silly install resolved     dependencies: {},
+436 silly install resolved     peerDependencies: { karma: '>=0.9' },
+436 silly install resolved     license: 'MIT',
+436 silly install resolved     devDependencies:
+436 silly install resolved      { 'grunt-npm': '0.0.2',
+436 silly install resolved        grunt: '~0.4.1',
+436 silly install resolved        'grunt-bump': '0.0.7',
+436 silly install resolved        'grunt-auto-release': '0.0.2' },
+436 silly install resolved     contributors: [ [Object], [Object] ],
+436 silly install resolved     _id: 'karma-safari-launcher@0.1.1',
+436 silly install resolved     dist:
+436 silly install resolved      { shasum: 'a6380accab60a583fdd624f41b9a3f10fdf41008',
+436 silly install resolved        tarball: 'http://registry.npmjs.org/karma-safari-launcher/-/karma-safari-launcher-0.1.1.tgz' },
+436 silly install resolved     _npmVersion: '1.1.65',
+436 silly install resolved     _npmUser: { name: 'vojtajina', email: 'vojta.jina@gmail.com' },
+436 silly install resolved     maintainers: [ [Object], [Object] ],
+436 silly install resolved     directories: {},
+436 silly install resolved     _shasum: 'a6380accab60a583fdd624f41b9a3f10fdf41008',
+436 silly install resolved     _resolved: 'https://registry.npmjs.org/karma-safari-launcher/-/karma-safari-launcher-0.1.1.tgz',
+436 silly install resolved     _from: 'karma-safari-launcher@*' },
+436 silly install resolved   { name: 'karma-chrome-launcher',
+436 silly install resolved     version: '0.1.8',
+436 silly install resolved     description: 'A Karma plugin. Launcher for Chrome and Chrome Canary.',
+436 silly install resolved     main: 'index.js',
+436 silly install resolved     scripts: { test: 'jasmine-node test' },
+436 silly install resolved     repository:
+436 silly install resolved      { type: 'git',
+436 silly install resolved        url: 'git://github.com/karma-runner/karma-chrome-launcher.git' },
+436 silly install resolved     keywords: [ 'karma-plugin', 'karma-launcher', 'chrome' ],
+436 silly install resolved     author: { name: 'Vojta Jina', email: 'vojta.jina@gmail.com' },
+436 silly install resolved     dependencies: { which: '^1.0.9' },
+436 silly install resolved     peerDependencies: { karma: '>=0.9.3' },
+436 silly install resolved     license: 'MIT',
+436 silly install resolved     devDependencies:
+436 silly install resolved      { grunt: '~0.4.1',
+436 silly install resolved        'grunt-npm': '~0.0.2',
+436 silly install resolved        'grunt-bump': '~0.0.6',
+436 silly install resolved        'grunt-auto-release': '~0.0.2',
+436 silly install resolved        'jasmine-node': '~1.14.5' },
+436 silly install resolved     contributors:
+436 silly install resolved      [ [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object] ],
+436 silly install resolved     gitHead: '7f32b59d61232f3f377cc982975eef748bccdc11',
+436 silly install resolved     bugs: { url: 'https://github.com/karma-runner/karma-chrome-launcher/issues' },
+436 silly install resolved     homepage: 'https://github.com/karma-runner/karma-chrome-launcher',
+436 silly install resolved     _id: 'karma-chrome-launcher@0.1.8',
+436 silly install resolved     _shasum: '5ba43f821f64f531e4ff1e7d86caf95df9ac9142',
+436 silly install resolved     _from: 'karma-chrome-launcher@*',
+436 silly install resolved     _npmVersion: '1.4.21',
+436 silly install resolved     _npmUser: { name: 'zzo', email: 'mark@zzo.com' },
+436 silly install resolved     maintainers: [ [Object], [Object] ],
+436 silly install resolved     dist:
+436 silly install resolved      { shasum: '5ba43f821f64f531e4ff1e7d86caf95df9ac9142',
+436 silly install resolved        tarball: 'http://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-0.1.8.tgz' },
+436 silly install resolved     directories: {},
+436 silly install resolved     _resolved: 'https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-0.1.8.tgz' },
+436 silly install resolved   { name: 'bower',
+436 silly install resolved     version: '1.4.1',
+436 silly install resolved     description: 'The browser package manager',
+436 silly install resolved     author: { name: 'Twitter' },
+436 silly install resolved     licenses: [ [Object] ],
+436 silly install resolved     repository: { type: 'git', url: 'https://github.com/bower/bower' },
+436 silly install resolved     main: 'lib',
+436 silly install resolved     homepage: 'http://bower.io',
+436 silly install resolved     engines: { node: '>=0.10.0' },
+436 silly install resolved     dependencies:
+436 silly install resolved      { abbrev: '^1.0.5',
+436 silly install resolved        archy: '1.0.0',
+436 silly install resolved        'bower-config': '^0.6.1',
+436 silly install resolved        'bower-endpoint-parser': '^0.2.2',
+436 silly install resolved        'bower-json': '^0.4.0',
+436 silly install resolved        'bower-logger': '^0.2.2',
+436 silly install resolved        'bower-registry-client': '^0.3.0',
+436 silly install resolved        cardinal: '0.4.4',
+436 silly install resolved        chalk: '^1.0.0',
+436 silly install resolved        chmodr: '0.1.0',
+436 silly install resolved        configstore: '^0.3.2',
+436 silly install resolved        'decompress-zip': '^0.1.0',
+436 silly install resolved        fstream: '^1.0.3',
+436 silly install resolved        'fstream-ignore': '^1.0.2',
+436 silly install resolved        github: '^0.2.3',
+436 silly install resolved        glob: '^4.3.2',
+436 silly install resolved        'graceful-fs': '^3.0.5',
+436 silly install resolved        handlebars: '^2.0.0',
+436 silly install resolved        inquirer: '0.8.0',
+436 silly install resolved        insight: '^0.5.0',
+436 silly install resolved        'is-root': '^1.0.0',
+436 silly install resolved        junk: '^1.0.0',
+436 silly install resolved        lockfile: '^1.0.0',
+436 silly install resolved        'lru-cache': '^2.5.0',
+436 silly install resolved        mkdirp: '0.5.0',
+436 silly install resolved        mout: '^0.11.0',
+436 silly install resolved        nopt: '^3.0.1',
+436 silly install resolved        opn: '^1.0.1',
+436 silly install resolved        'p-throttler': '0.1.1',
+436 silly install resolved        promptly: '0.2.0',
+436 silly install resolved        q: '^1.1.2',
+436 silly install resolved        request: '2.53.0',
+436 silly install resolved        'request-progress': '0.3.1',
+436 silly install resolved        retry: '0.6.1',
+436 silly install resolved        rimraf: '^2.2.8',
+436 silly install resolved        semver: '^2.3.0',
+436 silly install resolved        'shell-quote': '^1.4.2',
+436 silly install resolved        'stringify-object': '^1.0.0',
+436 silly install resolved        'tar-fs': '^1.4.1',
+436 silly install resolved        tmp: '0.0.24',
+436 silly install resolved        'update-notifier': '^0.3.0',
+436 silly install resolved        'user-home': '^1.1.0',
+436 silly install resolved        which: '^1.0.8' },
+436 silly install resolved     devDependencies:
+436 silly install resolved      { chai: '^1.10.0',
+436 silly install resolved        coveralls: '^2.11.2',
+436 silly install resolved        'expect.js': '^0.3.1',
+436 silly install resolved        grunt: '^0.4.5',
+436 silly install resolved        'grunt-cli': '^0.1.13',
+436 silly install resolved        'grunt-contrib-jshint': '^0.10.0',
+436 silly install resolved        'grunt-contrib-watch': '^0.6.1',
+436 silly install resolved        'grunt-exec': '^0.4.6',
+436 silly install resolved        'grunt-simple-mocha': '^0.4.0',
+436 silly install resolved        istanbul: '^0.3.5',
+436 silly install resolved        'load-grunt-tasks': '^2.0.0',
+436 silly install resolved        mocha: '^2.1.0',
+436 silly install resolved        multiline: '^1.0.2',
+436 silly install resolved        nock: '^0.56.0',
+436 silly install resolved        'node-uuid': '^1.4.2',
+436 silly install resolved        proxyquire: '^1.3.0',
+436 silly install resolved        'spawn-sync': '^1.0.5' },
+436 silly install resolved     scripts: { test: 'grunt test' },
+436 silly install resolved     bin: { bower: 'bin/bower' },
+436 silly install resolved     preferGlobal: true,
+436 silly install resolved     gitHead: 'a1287416d40f944d58cb8f2e774e2076bfffd32f',
+436 silly install resolved     bugs: { url: 'https://github.com/bower/bower/issues' },
+436 silly install resolved     _id: 'bower@1.4.1',
+436 silly install resolved     _shasum: 'a18be39d030792754f30f1c5b32d37b0156ba8dd',
+436 silly install resolved     _from: 'bower@>=1.3.3 <2.0.0',
+436 silly install resolved     _npmVersion: '2.7.4',
+436 silly install resolved     _nodeVersion: '0.12.0',
+436 silly install resolved     _npmUser: { name: 'sheerun', email: 'sheerun@sher.pl' },
+436 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+436 silly install resolved     dist:
+436 silly install resolved      { shasum: 'a18be39d030792754f30f1c5b32d37b0156ba8dd',
+436 silly install resolved        tarball: 'http://registry.npmjs.org/bower/-/bower-1.4.1.tgz' },
+436 silly install resolved     directories: {},
+436 silly install resolved     _resolved: 'https://registry.npmjs.org/bower/-/bower-1.4.1.tgz',
+436 silly install resolved     readme: 'ERROR: No README data found!' },
+436 silly install resolved   { name: 'karma',
+436 silly install resolved     description: 'Spectacular Test Runner for JavaScript.',
+436 silly install resolved     homepage: 'http://karma-runner.github.io/',
+436 silly install resolved     repository: { type: 'git', url: 'git://github.com/karma-runner/karma.git' },
+436 silly install resolved     bugs: { url: 'https://github.com/karma-runner/karma/issues' },
+436 silly install resolved     keywords:
+436 silly install resolved      [ 'karma',
+436 silly install resolved        'spectacular',
+436 silly install resolved        'runner',
+436 silly install resolved        'karma',
+436 silly install resolved        'js',
+436 silly install resolved        'javascript',
+436 silly install resolved        'testing',
+436 silly install resolved        'test',
+436 silly install resolved        'remote',
+436 silly install resolved        'execution' ],
+436 silly install resolved     author: { name: 'Vojta Jína', email: 'vojta.jina@gmail.com' },
+436 silly install resolved     contributors:
+436 silly install resolved      [ [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object],
+436 silly install resolved        [Object] ],
+436 silly install resolved     dependencies:
+436 silly install resolved      { di: '~0.0.1',
+436 silly install resolved        'socket.io': '0.9.16',
+436 silly install resolved        chokidar: '>=0.8.2',
+436 silly install resolved        glob: '~3.2.7',
+436 silly install resolved        minimatch: '~0.2',
+436 silly install resolved        'http-proxy': '~0.10',
+436 silly install resolved        optimist: '~0.6.0',
+436 silly install resolved        rimraf: '~2.2.5',
+436 silly install resolved        q: '~0.9.7',
+436 silly install resolved        colors: '~0.6.2',
+436 silly install resolved        lodash: '~2.4.1',
+436 silly install resolved        mime: '~1.2.11',
+436 silly install resolved        log4js: '~0.6.3',
+436 silly install resolved        useragent: '~2.0.4',
+436 silly install resolved        'graceful-fs': '~2.0.1',
+436 silly install resolved        connect: '~2.26.0',
+436 silly install resolved        'source-map': '~0.1.31' },
+436 silly install resolved     devDependencies:
+436 silly install resolved      { grunt: '~0.4',
+436 silly install resolved        'grunt-simple-mocha': '*',
+436 silly install resolved        'grunt-contrib-jshint': '~0.10.0',
+436 silly install resolved        'grunt-contrib-watch': '~0.6.1',
+436 silly install resolved        'grunt-coffeelint': '~0.0.6',
+436 silly install resolved        'grunt-npm': '~0.0.1',
+436 silly install resolved        'grunt-bump': '~0.0.10',
+436 silly install resolved        'grunt-conventional-changelog': '~1.1.0',
+436 silly install resolved        'grunt-auto-release': '~0.0.3',
+436 silly install resolved        'grunt-browserify': '~2.1.3',
+436 silly install resolved        'load-grunt-tasks': '~0.6.0',
+436 silly install resolved        mocks: '~0.0.10',
+436 silly install resolved        which: '~1.0',
+436 silly install resolved        mocha: '~1.20.1',
+436 silly install resolved        chai: '~1.9.1',
+436 silly install resolved        'chai-as-promised': '~4.1.0',
+436 silly install resolved        sinon: '~1.10.3',
+436 silly install resolved        'sinon-chai': '~2.5.0',
+436 silly install resolved        'timer-shim': '~0.3.0',
+436 silly install resolved        'karma-jasmine': '~0.1.0',
+436 silly install resolved        'karma-mocha': '*',
+436 silly install resolved        'karma-qunit': '*',
+436 silly install resolved        'karma-coverage': '*',
+436 silly install resolved        'karma-requirejs': '*',
+436 silly install resolved        'karma-commonjs': '*',
+436 silly install resolved        'karma-growl-reporter': '*',
+436 silly install resolved        'karma-junit-reporter': '*',
+436 silly install resolved        'karma-chrome-launcher': '*',
+436 silly install resolved        'karma-firefox-launcher': '*',
+436 silly install resolved        'karma-sauce-launcher': '*',
+436 silly install resolved        'karma-phantomjs-launcher': '*',
+436 silly install resolved        'karma-ng-scenario': '*',
+436 silly install resolved        'karma-coffee-preprocessor': '*',
+436 silly install resolved        'karma-live-preprocessor': '*',
+436 silly install resolved        'karma-html2js-preprocessor': '*',
+436 silly install resolved        'karma-browserstack-launcher': '*',
+436 silly install resolved        LiveScript: '~1.2.0',
+436 silly install resolved        'coffee-errors': '~0.8.6',
+436 silly install resolved        'coffee-script': '~1.7.1',
+436 silly install resolved        'grunt-jscs-checker': '~0.6.1' },
+436 silly install resolved     main: './lib/index',
+436 silly install resolved     bin: {},
+436 silly install resolved     engines: { node: '~0.8 || ~0.10' },
+436 silly install resolved     version: '0.12.31',
+436 silly install resolved     license: 'MIT',
+436 silly install resolved     gitHead: '6d2e4a7751a04284ce0836eba72cbe844933be9e',
+436 silly install resolved     _id: 'karma@0.12.31',
+436 silly install resolved     scripts: {},
+436 silly install resolved     _shasum: '806aa7c2acb13a39edb9374a7a477e643a5e94c9',
+436 silly install resolved     _from: 'karma@*',
+436 silly install resolved     _npmVersion: '2.1.17',
+436 silly install resolved     _nodeVersion: '0.10.35',
+436 silly install resolved     _npmUser: { name: 'karmarunnerbot', email: 'karmarunnerbot@gmail.com' },
+436 silly install resolved     maintainers: [ [Object], [Object] ],
+436 silly install resolved     dist:
+436 silly install resolved      { shasum: '806aa7c2acb13a39edb9374a7a477e643a5e94c9',
+436 silly install resolved        tarball: 'http://registry.npmjs.org/karma/-/karma-0.12.31.tgz' },
+436 silly install resolved     directories: {},
+436 silly install resolved     _resolved: 'https://registry.npmjs.org/karma/-/karma-0.12.31.tgz' } ]
+437 info install gulp@3.8.11 into /Users/herve/Projects/mora-mobile
+438 info install shelljs@0.3.0 into /Users/herve/Projects/mora-mobile
+439 info install gulp-rename@1.2.2 into /Users/herve/Projects/mora-mobile
+440 info install gulp-sass@1.3.3 into /Users/herve/Projects/mora-mobile
+441 info install gulp-concat@2.5.2 into /Users/herve/Projects/mora-mobile
+442 info install gulp-minify-css@0.3.13 into /Users/herve/Projects/mora-mobile
+443 info install gulp-util@2.2.20 into /Users/herve/Projects/mora-mobile
+444 info install karma-jasmine@0.3.5 into /Users/herve/Projects/mora-mobile
+445 info install karma-firefox-launcher@0.1.4 into /Users/herve/Projects/mora-mobile
+446 info install karma-safari-launcher@0.1.1 into /Users/herve/Projects/mora-mobile
+447 info install karma-chrome-launcher@0.1.8 into /Users/herve/Projects/mora-mobile
+448 info install bower@1.4.1 into /Users/herve/Projects/mora-mobile
+449 info install karma@0.12.31 into /Users/herve/Projects/mora-mobile
+450 info installOne gulp@3.8.11
+451 verbose installOne of gulp to /Users/herve/Projects/mora-mobile not in flight; installing
+452 info installOne shelljs@0.3.0
+453 verbose installOne of shelljs to /Users/herve/Projects/mora-mobile not in flight; installing
+454 info installOne gulp-rename@1.2.2
+455 verbose installOne of gulp-rename to /Users/herve/Projects/mora-mobile not in flight; installing
+456 info installOne gulp-sass@1.3.3
+457 verbose installOne of gulp-sass to /Users/herve/Projects/mora-mobile not in flight; installing
+458 info installOne gulp-concat@2.5.2
+459 verbose installOne of gulp-concat to /Users/herve/Projects/mora-mobile not in flight; installing
+460 info installOne gulp-minify-css@0.3.13
+461 verbose installOne of gulp-minify-css to /Users/herve/Projects/mora-mobile not in flight; installing
+462 info installOne gulp-util@2.2.20
+463 verbose installOne of gulp-util to /Users/herve/Projects/mora-mobile not in flight; installing
+464 info installOne karma-jasmine@0.3.5
+465 verbose installOne of karma-jasmine to /Users/herve/Projects/mora-mobile not in flight; installing
+466 info installOne karma-firefox-launcher@0.1.4
+467 verbose installOne of karma-firefox-launcher to /Users/herve/Projects/mora-mobile not in flight; installing
+468 info installOne karma-safari-launcher@0.1.1
+469 verbose installOne of karma-safari-launcher to /Users/herve/Projects/mora-mobile not in flight; installing
+470 info installOne karma-chrome-launcher@0.1.8
+471 verbose installOne of karma-chrome-launcher to /Users/herve/Projects/mora-mobile not in flight; installing
+472 info installOne bower@1.4.1
+473 verbose installOne of bower to /Users/herve/Projects/mora-mobile not in flight; installing
+474 info installOne karma@0.12.31
+475 verbose installOne of karma to /Users/herve/Projects/mora-mobile not in flight; installing
+476 warn locking Error: EACCES, open '/Users/herve/.npm/_locks/gulp-21b48d9b05c01878.lock'
+476 warn locking     at Error (native)
+476 warn locking  /Users/herve/.npm/_locks/gulp-21b48d9b05c01878.lock failed { [Error: EACCES, open '/Users/herve/.npm/_locks/gulp-21b48d9b05c01878.lock']
+476 warn locking   errno: -13,
+476 warn locking   code: 'EACCES',
+476 warn locking   path: '/Users/herve/.npm/_locks/gulp-21b48d9b05c01878.lock' }
+477 verbose stack Error: Attempt to unlock /Users/herve/Projects/mora-mobile/node_modules/gulp, which hasn't been locked
+477 verbose stack     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:66:11)
+477 verbose stack     at cb (/usr/local/lib/node_modules/npm/lib/install.js:929:5)
+477 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:933:20
+477 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:40:9
+477 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+477 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+477 verbose stack     at FSReqWrap.oncomplete (fs.js:99:15)
+478 verbose cwd /Users/herve/Projects/mora-mobile/www
+479 error Darwin 14.1.0
+480 error argv "node" "/usr/local/bin/npm" "install"
+481 error node v0.12.0
+482 error npm  v2.5.1
+483 error Attempt to unlock /Users/herve/Projects/mora-mobile/node_modules/gulp, which hasn't been locked
+484 error If you need help, you may report this error at:
+484 error     <http://github.com/npm/npm/issues>
+485 verbose exit [ 1, true ]
