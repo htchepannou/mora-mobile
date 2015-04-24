@@ -29,14 +29,7 @@ angular.module('starter.controllers', [])
         })
         .then(function(res) {
             if(res) {
-                __loading($ionicLoading);
-                AuthService.logout()
-                    .success(function(){
-                        $ionicLoading.hide();
-
-                        $rootScope.$broadcast('logout');
-                        $scope.login();
-                    });
+                $scope.login();
             }
         });
     };
@@ -48,8 +41,9 @@ angular.module('starter.controllers', [])
         AuthService.login($scope.loginData)
             .success(function (){
                 $ionicLoading.hide();
-
                 $scope.closeLogin();
+
+                $rootScope.$broadcast('login');
                 $location.path('/app/calendar');
             })
             .error(function (data, status, headers, config){
@@ -58,17 +52,23 @@ angular.module('starter.controllers', [])
                 console.log(status, data);
                 if (status==409){
                     var confirmPopup = $ionicPopup.confirm({
-                     title: 'Authentication Failed',
-                     template: 'Sorry! The information you have entered are not valid'
-                   });
+                        title: 'Authentication Failed',
+                        template: 'Sorry! The information you have entered are not valid'
+                    });
                 }
             })
         ;
     };
+
+    //----- event handlers
+    $scope.$on('login', function () {
+        $scope.login();
+    });
+
 })
 
 
-.controller('BlogController', function($scope, $ionicLoading, BlogService) {
+.controller('BlogController', function($scope, $ionicLoading, $ionicPopup, BlogService) {
     $scope.posts = {};
     $scope.limit = 25;
     $scope.offset = 0;
@@ -92,30 +92,45 @@ angular.module('starter.controllers', [])
     }
 
     $scope.__load = function(callback){
-        BlogService.all($scope.limit, $scope.offset).success(function(data){
-            if ($scope.posts instanceof Array){
-                for (var i=0 ; i<data.length ; i++){
-                    $scope.posts.push(data[i]);
+        BlogService.all($scope.limit, $scope.offset)
+            .success(function(data){
+                if ($scope.posts instanceof Array){
+                    for (var i=0 ; i<data.length ; i++){
+                        $scope.posts.push(data[i]);
+                    }
+                } else {
+                    $scope.posts = data;
                 }
-            } else {
-                $scope.posts = data;
-            }
-            $scope.__loaded(data);
+                $scope.__loaded(data);
 
-            if (callback){
-                callback(data);
-            }
-        });
+                if (callback){
+                    callback(data);
+                }
+            })
+            .error(function (data, status, headers, config){
+                $ionicLoading.hide();
+
+                console.log(status, data, headers, config);
+                if (status==401){
+                    $rootScope.$broadcast('logout');
+                } else {
+                    var confirmPopup = $ionicPopup.confirm({
+                        title: 'Failure',
+                        template: 'Sorry! Unable to fetch the data'
+                    });
+                }
+            })
+            ;
     }
     $scope.__loaded = function(data){
-        $scope.hasMore = data.length >= $scope.limit;
+        $scope.hasMore = data.length > 0;
         if ($scope.hasMore){
             $scope.offset = $scope.offset + data.length;
         }
     }
 
     //----- event handlers
-    $scope.$on('logout', function () {
+    $scope.$on('login', function () {
         $scope.offset = 0
         $scope.hasMore = false;
         $scope.posts = {};

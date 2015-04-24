@@ -1,5 +1,6 @@
-var securityApi = 'http://localhost:18080';
-var postApi = 'http://localhost:18082';
+var host = 'www.insidesoccer.com';
+var securityApi = 'http://' + host + ':18080';
+var postApi = 'http://' + host + ':18082';
 
 angular.module('starter.services', [])
 .factory('AuthService', function($http){

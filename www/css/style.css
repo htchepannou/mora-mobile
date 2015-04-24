@@ -51,3 +51,7 @@ img.jersey{
   display: inline;
   float: right;
 }
+
+a.post:link, a.post:visited, a.post:hover, a.post:active{
+    text-decoration: none;
+}

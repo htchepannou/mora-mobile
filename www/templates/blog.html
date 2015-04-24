@@ -5,16 +5,18 @@
         on-refresh="refresh()">
       </ion-refresher>
 
-      <div class="list card" ng-repeat="post in posts">
-        <div class="item item-avatar">
-          <img ng-src="{{post.space.logoUrl}}" class="team-logo">
-          <h2 class="ng-cloak">{{post.title}}</h2>
-          <p><span class="team-name ng-cloak">{{post.space.name}}</span> - <span class="ng-cloak">{{post.user.name}}</span></p>
+      <a ng-href="#/app/read/{{post.id}}" ng-repeat="post in posts" class="post">
+        <div class="list card">
+          <div class="item item-avatar">
+            <img ng-src="{{post.space.logoUrl}}" class="team-logo">
+            <h2 class="ng-cloak">{{post.title}}</h2>
+            <p><span class="team-name ng-cloak">{{post.space.name}}</span> - <span class="ng-cloak">{{post.user.name}}</span></p>
+          </div>
+          <div class="item item-body">
+            <p class="ng-cloak">{{post.summary}}</p>
+          </div>
         </div>
-        <div class="item item-body">
-          <p class="ng-cloak">{{post.summary}} <a ng-href="#/app/read/{{post.id}}">More...</a></p>
-        </div>
-      </div>
+      </a>
 
       <ion-infinite-scroll on-infinite="loadMore()" distance="1%" ng-if="hasMore">
       </ion-infinite-scroll>
